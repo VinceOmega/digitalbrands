@@ -1,0 +1,188 @@
+# Block WordPress xmlrpc.php requests
+<Files xmlrpc.php>
+order deny,allow
+deny from all
+</Files>
+
+# BEGIN block author scans
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{QUERY_STRING} (author=\d+) [NC]
+RewriteRule .* - [F]
+# END block author scans 
+
+
+RewriteRule ^wp-content/themes/digitalbrands/library/fonts/(.*)/(.*) - [QSA,L]
+
+
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(eot|otf|tt[c|f]|woff)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# | Media types                                                                |
+# ------------------------------------------------------------------------------
+
+# Serve resources with the proper media types (formerly known as MIME types).
+# http://www.iana.org/assignments/media-types/media-types.xhtml
+
+<IfModule mod_mime.c>
+
+  # Audio
+    AddType audio/mp4                                   f4a f4b m4a
+    AddType audio/ogg                                   oga ogg opus
+
+  # Data interchange
+    AddType application/json                            json map
+    AddType application/ld+json                         jsonld
+
+  # JavaScript
+    # Normalize to standard type.
+    # http://tools.ietf.org/html/rfc4329#section-7.2
+    AddType application/javascript                      js
+
+  # Manifest files
+
+    # If you are providing a web application manifest file (see the
+    # specification: http://w3c.github.io/manifest/), it is recommended
+    # that you serve it with the `application/manifest+json` media type.
+    #
+    # Because the web application manifest file doesn't have its own
+    # unique file extension, you can set its media type either by matching:
+    #
+    # 1) the exact location of the file (this can be done using a directive
+    #    such as `<Location>`, but it will NOT work in the `.htaccess` file,
+    #    so you will have to do it in the main server configuration file or
+    #    inside of a `<VirtualHost>` container)
+    #
+    #    e.g.:
+    #
+    #       <Location "/.well-known/manifest.json">
+    #           AddType application/manifest+json               json
+    #       </Location>
+    #
+    # 2) the filename (this can be problematic as you will need to ensure
+    #    that you don't have any other file with the same name as the one
+    #    you gave to your web application manifest file)
+    #
+    #    e.g.:
+    #
+    #       <Files "manifest.json">
+    #           AddType application/manifest+json               json
+    #       </Files>
+
+    AddType application/x-web-app-manifest+json         webapp
+    AddType text/cache-manifest                         appcache manifest
+
+  # Video
+    AddType video/mp4                                   f4v f4p m4v mp4
+    AddType video/ogg                                   ogv
+    AddType video/webm                                  webm
+    AddType video/x-flv                                 flv
+
+  # Web fonts
+    AddType application/font-woff                       woff
+    AddType application/vnd.ms-fontobject               eot
+
+    # Browsers usually ignore the font media types and simply sniff
+    # the bytes to figure out the font type.
+    # http://mimesniff.spec.whatwg.org/#matching-a-font-type-pattern
+
+    # Chrome however, shows a warning if any other media types are used
+    # for the following two font types.
+
+    AddType application/x-font-ttf                      ttc ttf
+    AddType font/opentype                               otf
+
+    AddType image/svg+xml                               svg svgz
+
+  # Other
+    AddType application/octet-stream                    safariextz
+    AddType application/x-chrome-extension              crx
+    AddType application/x-opera-extension               oex
+    AddType application/x-xpinstall                     xpi
+    AddType application/xml                             atom rdf rss xml
+    AddType image/webp                                  webp
+    AddType image/x-icon                                cur ico
+    AddType text/vtt                                    vtt
+    AddType text/x-component                            htc
+    AddType text/x-vcard                                vcf
+
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# | Character encodings                                                        |
+# ------------------------------------------------------------------------------
+
+# Set `UTF-8` as the character encoding for all resources served with
+# the media type of `text/html` or `text/plain`.
+AddDefaultCharset utf-8
+
+# Set `UTF-8` as the character encoding for other certain resources.
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .jsonld .rss .vtt .webapp .xml
+</IfModule>
+
+# ##############################################################################
+# # SECURITY                                                                   #
+# ##############################################################################
+
+# ------------------------------------------------------------------------------
+# | Clickjacking                                                               |
+# ------------------------------------------------------------------------------
+
+# Protect website against clickjacking.
+
+# The example below sends the `X-Frame-Options` response header with the value
+# `DENY`, informing browsers not to display the web page content in any frame.
+
+# This might not be the best setting for everyone. You should read about the
+# other two possible values for `X-Frame-Options`: `SAMEORIGIN` & `ALLOW-FROM`.
+# http://tools.ietf.org/html/rfc7034#section-2.1
+
+# Keep in mind that while you could send the `X-Frame-Options` header for all
+# of your site’s pages, this has the potential downside that it forbids even
+# non-malicious framing of your content (e.g.: when users visit your site using
+# a Google Image Search results page).
+
+# Nonetheless, you should ensure that you send the `X-Frame-Options` header for
+# all pages that allow a user to make a state changing operation (e.g: pages
+# that contain one-click purchase links, checkout or bank-transfer confirmation
+# pages, pages that make permanent configuration changes, etc.).
+
+# Sending the `X-Frame-Options` header can also protect your website against
+# more than just clickjacking attacks: https://cure53.de/xfo-clickjacking.pdf.
+
+# http://tools.ietf.org/html/rfc7034
+# http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx
+# https://www.owasp.org/index.php/Clickjacking
+
+# <IfModule mod_headers.c>
+#     Header set X-Frame-Options "DENY"
+#     <FilesMatch "\.(appcache|atom|crx|css|cur|eot|f4[abpv]|flv|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|tt[cf]|txt|vcf|vtt|webapp|web[mp]|woff|xml|xpi)$">
+#         Header unset X-Frame-Options
+#     </FilesMatch>
+# </IfModule>
+
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+
+
