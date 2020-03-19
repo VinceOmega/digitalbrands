@@ -69,7 +69,8 @@
 						$cnt++;
 
 					}
-				?>							
+				?>	
+				<span class="supascript">&copy;</span>
 			</a>
 		</p>
 

@@ -25,8 +25,7 @@
 			</footer>
 
 
-		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
+
 
 	</body>
 
@@ -35,4 +34,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
+
+	<?php // all js scripts are loaded in library/bones.php ?>
+	<?php wp_footer(); ?>
+
 </html> <!-- end of site. what a ride! -->
