@@ -258,7 +258,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
