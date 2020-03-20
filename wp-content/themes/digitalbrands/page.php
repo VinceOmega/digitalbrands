@@ -52,7 +52,7 @@
 
         <div class="col-lg-12 my-auto showcase-text">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
@@ -93,7 +93,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
@@ -144,7 +144,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
@@ -184,7 +184,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class=" w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
@@ -231,7 +231,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
@@ -258,7 +258,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-md-6 col-sm-12">
 					<div class="w3-card">
 						<div class="w3-panel">
 							<div class="w3-overlay"></div>
