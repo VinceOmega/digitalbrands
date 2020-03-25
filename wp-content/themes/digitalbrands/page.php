@@ -1,32 +1,8 @@
 <?php get_header(); ?>
 
-<header class="header masthead text-white text-center visible-lg" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-	<div class="row">
-
-		<section class="col-12 mx-auto">
-			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="hightlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="hightlight-blue">BRANDING:</span></div>
-				<div class="hero-header-cta">
-					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
-				</div>
-			</h1>
-		</section>
-
-		<!--
-		<aside class="header-icons">
-
-		</aside>
-
-		<aside class="header-cta">
-			<button class="btn btn-primary">
-		</aside>
-		-->
-
-	</div>
-
-</header>
+<!--- Header Section --->
+	<?php include_once get_template_directory()."/heros/home/view.php";  ?>
+<!--- Header Section --->
 
   <!-- Icons Grid -->
   <section class="features-icons text-center rounded-black">
@@ -359,27 +335,46 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
+  <section class="call-to-action rounded-white">
     <div class="container">
+
+	<div class="row">
+
+		<div class="col-12">
+
+		</div>
+
+		<div class="col-12">
+			<?php echo do_shortcode( '[rt-testimonial id="26" title="Test Shortcode"]' ) ?>
+		</div>
+
+	</div>
+
       <div class="row">
-        <div class="col-xl-9 mx-auto">
+        <div class="col-12 mx-auto">
           <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
-        </div>
+		</div>
+		<div class="col-12">
+			<?php 
+				$brands = [
+					[ 'dell.png', 'verizon.png', 'lenovo.png', 'comcast.png', 'capital-one.png', 'discovery.png', 'lockheed-martin.png', 'chase.png' ],
+					[ 'exxon.png', 'td-ameritrade.png', 'lowes.png', 'coca-cola.png', 'wawa.png', 'acme.png', 'giant.png', 'wegmans.png' ],
+					[ '7-11.png', 'mcdonalds.png', 'burger-king.png', 'hh-gregg.png', 'whole-foods.png', 'jimmy-johns.png', 'dunkin.png', 'nestea.png' ],
+					[ 'starbucks.png', 'toyota.png', 'bmw.png', 'benz.png', 'mazda.png', 'hyundai.png', 'nissan.png', 'michelin.png' ],
+					[ 'qualcomm.png', 'gm.png', 'ibm.png', 'superphone.png', 'bpm-supreme.png', 'lola.png', 'dash.png', 'puma.png' ]
+				];
+			?>
+				<?php foreach( $brands as $row => $brands ){ ?>
+					<ul>
+						<?php foreach( $brands as $entry => $img ){ ?>
+							<li>
+								<a href="##"><img src="<?php echo get_template_directory_uri().'/library/images/brands/'.$img; ?>"></a>
+							</li>
+						<?php }; ?>
+					</ul>
+				<?php }; ?>
+		</div>
       </div>
-    </div>
   </section>
 
 

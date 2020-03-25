@@ -353,12 +353,74 @@ nav div.menu ul li a:active
 }
 
 
-
-@media (min-width: 768px) {
+/* Tablet */
+@media (min-width: 501px and max-width: 768px ) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+
+  header.header.header-desktop{
+	  display: none !important;
+  }
+
+  nav.navbar.navbar-desktop{
+	  display: none !important;
+  }
+
+}
+
+  /* Moblie */
+  @media(max-width: 500px){
+
+	header.header.header-desktop{
+		display: none !important;
+	}
+
+	header.header.header-tablet{
+		display: none !important;
+	}
+
+	nav.navbar.navbar-desktop{
+		display: none !important;
+	}
+
+	nav.navbar.navbar-tablet{
+		display: none !important;
+	}
+
+  }
+
+  header.header.masthead.header-mobile{
+    background: url( '../images/heros/mobile/home.png' ) no-repeat;
+    background-size: 75%;
+    background-position: bottom;
+    height: 90%;
+  }
+
+  nav.navbar.navbar-mobile{
+	 
+	background-color: transparent;
+
+  }
+
+  nav.navbar.navbar-mobile .menu{
+    display: none;
+    position: absolute;
+  }
+
+
+  nav.navbar.navbar-mobile a span.h1___first,
+  nav.navbar.navbar-mobile a span.h1___second,
+  nav.navbar.navbar-mobile a span.supascript{
+
+	color: black;
+
+  }
+
+  nav.navbar.navbar-mobile:hover{
+	background-color: transparent;
   }
