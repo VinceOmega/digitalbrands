@@ -4,8 +4,8 @@
 
 		<section class="col-12 mx-auto">
 			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="hightlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="hightlight-blue">BRANDING:</span></div>
+				<div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
+				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
 				<div class="hero-header-cta">
 					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
 				</div>
@@ -33,8 +33,8 @@
 
 		<section class="col-12 mx-auto">
 			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="hightlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="hightlight-blue">BRANDING:</span></div>
+				<div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
+				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
 				<div class="hero-header-cta">
 					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
 				</div>
@@ -64,21 +64,15 @@
 			<h1 class="hero-header"> 
 				<div class="hero-header-first">WE ARE A PREMIUM</div> 
 				<div class="hero-header-second">DIGITAL AGENCY</div>
-				<div class="hero-header-cta">
-					<button type="button" class="btn btn-blue-purple capslock">GET A FREE CONSULTATION</button>
-				</div>
+				<div class="hero-header-sub highlight-blue">TRUSTED BY OVER 4,207 CLIENTS</div>
 			</h1>
 		</section>
 
-		<!--
-		<aside class="header-icons">
-
-		</aside>
-
-		<aside class="header-cta">
-			<button class="btn btn-primary">
-		</aside>
-		-->
+		<section class="col-12 mx-auto">
+			<div class="header-cta">
+				<button type="button" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</button>
+			</div>
+		</section>
 
 	</div>
 
