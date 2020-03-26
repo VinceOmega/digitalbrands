@@ -23,7 +23,9 @@
 
   <!-- Image Showcases -->
   <section class="showcase rounded-white">
-    <div class="container-fluid p-0">
+
+    <div class="container-fluid p-0 bg-gray">
+
       <div class="row no-gutters">
 
         <div class="col-lg-12 my-auto showcase-text">
@@ -261,7 +263,8 @@
 			
       </div>
 
-    </div>
+	</div>
+	
   </section>
 
   <!-- Testimonials -->

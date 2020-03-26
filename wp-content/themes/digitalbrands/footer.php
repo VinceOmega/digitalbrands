@@ -1,24 +1,36 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div id="inner-footer" class="wrap cf">
+				<div id="mobile-nav" class="mobile-nav wrap cf d-flex d-lg-none d-md-none">
 
 					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
+
+						<ul class="mobile-nav-items">
+
+							<li><a href="#"><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULTION</h6></a></li>
+
+							<li><a href="#"><i class="fas fa-phone-alt"></i><br><h6>TOLL FREE</h6></a></li>
+
+							<li><a href="#"><i class="fas fa-bars"></i><br><h6>MENU</h6></a></li>
+
+						</ul>
+
+						<aside class="menu-nav-display">
+							<?php wp_nav_menu(array(
+							'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
+							'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
+							'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
+							'menu_class' => 'nav footer-nav cf',            // adding custom nav class
+							'theme_location' => 'footer-links',             // where it's located in the theme
+							'before' => '',                                 // before the menu
+							'after' => '',                                  // after the menu
+							'link_before' => '',                            // before each link
+							'link_after' => '',                             // after each link
+							'depth' => 1                                  // limit the depth of the nav
+							));?>
+						</aside>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright d-none d-md-block d-sm-none">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
 				</div>
 
