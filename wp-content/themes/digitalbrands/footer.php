@@ -1,16 +1,16 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div id="mobile-nav" class="mobile-nav wrap cf d-flex d-lg-none d-md-none">
+				<div id="mobile-nav" class="mobile-nav d-flex d-lg-none d-md-none">
 
 					<nav role="navigation">
 
-						<ul class="mobile-nav-items">
+						<ul class="mobile-nav-items row">
 
-							<li><a href="#"><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULTION</h6></a></li>
+							<li class="col-4"><a href="#"><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULTION</h6></a></li>
 
-							<li><a href="#"><i class="fas fa-phone-alt"></i><br><h6>TOLL FREE</h6></a></li>
+							<li class="col-4"><a href="#"><i class="fas fa-phone-alt"></i><br><h6>TOLL FREE</h6></a></li>
 
-							<li><a href="#"><i class="fas fa-bars"></i><br><h6>MENU</h6></a></li>
+							<li class="col-4"><a href="#"><i class="fas fa-bars"></i><br><h6>MENU</h6></a></li>
 
 						</ul>
 
