@@ -476,6 +476,8 @@ nav.navbar.navbar-mobile:hover{
 
 	footer.footer .mobile-nav{
 		width: -webkit-fill-available;
+		z-index: 4000;
+		position: relative;
 	}
 
 	footer.footer .mobile-nav nav{
@@ -500,7 +502,7 @@ nav.navbar.navbar-mobile:hover{
 
 		display: inline-block;
 		/* margin: 0 30px; */
-		color: white;
+		color: white;		
 
 	}
 
@@ -508,8 +510,24 @@ nav.navbar.navbar-mobile:hover{
 		font-size: 1.6rem;
 	}
 
+	footer.footer .mobile-nav .mobile-nav-items li i.fa-phone{
+		transform: rotate(90deg);
+	}
+
 	footer.footer .mobile-nav .mobile-nav-items li a {
 		color: white;
+	}
+
+	footer.footer .mobile-nav .mobile-nav-items li a:hover{
+		cursor: hand;
+	}
+
+	footer.footer .mobile-nav .mboile-nav-items li a:active{
+
+	}
+
+	footer.footer .mobile-nav .mobile-nav-items li a h6{
+		font-weight: 300;
 	}
 
 

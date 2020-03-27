@@ -8,7 +8,7 @@
 
 							<li class="col-4"><a href="#"><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULTION</h6></a></li>
 
-							<li class="col-4"><a href="#"><i class="fas fa-phone-alt"></i><br><h6>TOLL FREE</h6></a></li>
+							<li class="col-4"><a href="#"><i class="fas fa-phone"></i><br><h6>TOLL FREE</h6></a></li>
 
 							<li class="col-4"><a href="#"><i class="fas fa-bars"></i><br><h6>MENU</h6></a></li>
 
