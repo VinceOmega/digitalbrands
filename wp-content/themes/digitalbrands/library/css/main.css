@@ -33,6 +33,9 @@ html > body {
   font-family: 'Noto Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 99.9999999999999%;
 }
 
 body  h1,
