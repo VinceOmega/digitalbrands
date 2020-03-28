@@ -506,7 +506,7 @@ nav.navbar.navbar-mobile:hover{
 		width: -moz-available;
 		width: fill-available;
 		width: stretch;
-		height: 8.9999%;
+		height: 10.9999%;
 		z-index: 4000;
 		position: fixed;
 		bottom: 0;
