@@ -506,8 +506,11 @@ nav.navbar.navbar-mobile:hover{
 		width: -moz-available;
 		width: fill-available;
 		width: stretch;
+		height: 8.9999%;
 		z-index: 4000;
-		position: relative;
+		position: fixed;
+		bottom: 0;
+		background: #086AF3;
 	}
 
 	footer.footer .mobile-nav nav{
@@ -517,14 +520,11 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	footer.footer .mobile-nav .mobile-nav-items{
-		background: 	#086AF3;
-		bottom: 		0;
-		position: 		fixed;
 		display: 		flex;
 		width: 			inherit;
 		flex-direction: row;
 		margin: 		0;
-		height: 		10.999999999%;
+		height: 		inherit;
 		padding: 		15px 10px;
 		text-align: 	center;
 	}
