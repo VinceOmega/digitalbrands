@@ -16,22 +16,7 @@
 
 						<aside class="menu-nav-display">
 							<div class="js-menu-toggle mobile-menu-close-btn-container"><a class="mobile-menu-close-btn">X</a></div>
-							<a href="<?php echo home_url(); ?>" rel="nofollow">
-								<?php 
-									$cnt = 0;
-									$numToWordsArray = [
-										"first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth", "tenth"
-									];
-									$strArray = explode( " ", get_bloginfo('name') );
-									foreach( $strArray as $key => $value ){
 
-										echo "<span class='h1___".$numToWordsArray[$cnt]."' >".$value."</span>";
-										$cnt++;
-
-									}
-								?>	
-								<span class="supascript">&copy;</span>
-							</a>
 							<?php wp_nav_menu(array(
 							'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
 							'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
