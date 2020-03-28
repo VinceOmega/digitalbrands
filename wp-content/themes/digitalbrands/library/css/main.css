@@ -43,6 +43,10 @@ html > body {
 	margin: 0;
 	padding: 0;
 	height: 98%;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	width: fill-available;
+	width: stretch;
 
 }
 
@@ -495,6 +499,9 @@ nav.navbar.navbar-mobile:hover{
 
 	footer.footer .mobile-nav{
 		width: -webkit-fill-available;
+		width: -moz-available;
+		width: fill-available;
+		width: stretch;
 		z-index: 4000;
 		position: relative;
 	}
@@ -572,6 +579,9 @@ nav.navbar.navbar-mobile:hover{
 		background-color: blue;
 		height: 0%;
 		width: -webkit-fill-available;
+		width: -moz-available;
+		width: fill-available;
+		width: stretch;
 		z-index: 3000;
 		transition: all .2s ease-in-out;
 
