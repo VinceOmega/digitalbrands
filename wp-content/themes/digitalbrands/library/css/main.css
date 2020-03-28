@@ -191,9 +191,17 @@ nav.navbar{
 
   font-size: 3rem;
   line-height: 6rem;
-  width: 100%;
   margin-left: 5rem;
   position: relative;
+
+}
+
+header.header-desktop 	.hero-header,
+header.header-tablet 	.hero-header{
+
+	margin-top: 16rem;
+	width: 100%;
+
 
 }
 
@@ -482,7 +490,8 @@ nav.navbar.navbar-mobile:hover{
 
 	footer.footer .mobile-nav nav{
 		display: flex;
-    	width: inherit;
+		width: inherit;
+		z-index: 5000;
 	}
 
 	footer.footer .mobile-nav .mobile-nav-items{
@@ -503,6 +512,7 @@ nav.navbar.navbar-mobile:hover{
 		display: inline-block;
 		/* margin: 0 30px; */
 		color: white;		
+		transition: all .2s ease-in-out
 
 	}
 
@@ -514,15 +524,25 @@ nav.navbar.navbar-mobile:hover{
 		transform: rotate(90deg);
 	}
 
+	footer.footer .mobile-nav .mobile-nav-items li:hover{
+		transform: scale(1.1, 1.1);
+		transition: all .2s ease-in-out
+	}
+
 	footer.footer .mobile-nav .mobile-nav-items li a {
 		color: white;
+		transition: all .2s ease-in-out
+
 	}
 
 	footer.footer .mobile-nav .mobile-nav-items li a:hover{
 		cursor: hand;
 	}
 
-	footer.footer .mobile-nav .mboile-nav-items li a:active{
+	footer.footer .mobile-nav .mobile-nav-items li a:active{
+		
+		color: #ffb100;
+		transition: all .2s ease-in-out
 
 	}
 
@@ -533,15 +553,30 @@ nav.navbar.navbar-mobile:hover{
 
 
 
-	footer.footer .mobile-nav  nav aside.menu-nav-display{
+	footer.footer .mobile-nav nav aside.menu-nav-display{
 
-		display: none;
+		display: flex;
 		position: fixed;
 		bottom: 0;
 		background-color: blue;
 		height: 0%;
 		width: -webkit-fill-available;
 		z-index: 3000;
+		transition: all .2s ease-in-out;
+
+	}
+
+	footer.footer .mobile-nav nav aside.menu-nav-display .mobile-menu-close-btn-container{
+		position: absolute;
+		left: 5%;
+		padding: .3rem .8rem;
+		font-size: 3rem;
+		z-index: 6000;
+	}
+
+	footer.footer .mobile-nav nav aside.menu-nav-display.show{
+		height: 100%;
+		transition: all .2s ease-in-out;
 
 	}
 
@@ -579,6 +614,9 @@ nav.navbar.navbar-mobile:hover{
 
 	}
 
-  
+	.showcase .container .row,
+	.showcase .container .showcase-item{
+		flex-direction: column;
+	}
 
 }

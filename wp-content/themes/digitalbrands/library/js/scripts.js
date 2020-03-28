@@ -105,6 +105,19 @@ function loadGravatars() {
 } // end function
 
 
+/* Mobile Nav Controls - START */
+
+  function toggleMobileMenu(){
+
+    $( ".js-menu-toggle" ).click( function(){
+      console.log( 'clicked' );
+        $( ".menu-nav-display" ).toggleClass( 'show' );
+    });
+
+  }
+
+/* Mobile Nav Controls - END */
+
 /*
  * Put all your regular jQuery in here.
 */
@@ -115,6 +128,9 @@ jQuery(document).ready(function($) {
    * You can remove this if you don't need it
   */
   loadGravatars();
-
+  toggleMobileMenu();
+  // $(document).click(function(event){
+  //   console.log(event.target);
+  // })
 
 }); /* end of as page load scripts */
