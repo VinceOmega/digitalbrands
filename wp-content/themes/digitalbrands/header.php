@@ -52,6 +52,8 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
-		<!-- Navigation -->
-		<?php include_once get_template_directory()."/nav/view.php";  ?>
-		<!-- Navigation -->
+		<div class="page-wrap">
+			
+			<!-- Navigation -->
+			<?php include_once get_template_directory()."/nav/view.php";  ?>
+			<!-- Navigation -->

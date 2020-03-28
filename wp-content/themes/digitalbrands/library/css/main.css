@@ -38,6 +38,14 @@ html > body {
   height: 99.9999999999999%;
 }
 
+.page-wrap{
+
+	margin: 0;
+	padding: 0;
+	height: 98%;
+
+}
+
 body  h1,
 body  h2,
 body  h3,
@@ -505,7 +513,7 @@ nav.navbar.navbar-mobile:hover{
 		width: 			inherit;
 		flex-direction: row;
 		margin: 		0;
-		height: 		9.499999999%;
+		height: 		9.999999999%;
 		padding: 		15px 10px;
 		text-align: 	center;
 	}
