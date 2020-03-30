@@ -15,11 +15,31 @@
 						</ul>
 
 						<aside class="menu-nav-display">
-							<div class="js-menu-toggle mobile-menu-close-btn-container"><a class="mobile-menu-close-btn">X</a></div>
 
+							<div class="js-menu-toggle mobile-menu-close-btn-container row"><a class="mobile-menu-close-btn">X</a></div>
+
+							<p id="logo-mobile" class="h1" itemscope itemtype="http://schema.org/Organization">
+								<a href="<?php echo home_url(); ?>" rel="nofollow">
+									<?php 
+										$cnt = 0;
+										$numToWordsArray = [
+											"first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth", "tenth"
+										];
+										$strArray = explode( " ", get_bloginfo('name') );
+										foreach( $strArray as $key => $value ){
+
+											echo "<span class='h1___".$numToWordsArray[$cnt]."' >".$value."</span>";
+											$cnt++;
+
+										}
+									?>	
+									<span class="supascript">&copy;</span>
+								</a>
+							</p>
+							
 							<?php wp_nav_menu(array(
 							'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-							'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
+							'container_class' => 'footer-links cf row',         // class of container (should you choose to use it)
 							'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
 							'menu_class' => 'nav footer-nav cf',            // adding custom nav class
 							'theme_location' => 'footer-links',             // where it's located in the theme
@@ -29,7 +49,12 @@
 							'link_after' => '',                             // after each link
 							'depth' => 1                                  // limit the depth of the nav
 							));?>
+
+
+							<a href="#" class="clk-rotate db-social-circle"><img src="<?php echo get_template_directory_uri(); ?>/library/images/site/DBcircle.png"></a>
+
 						</aside>
+
 					</nav>
 
 					<p class="source-org copyright d-none d-md-block d-sm-none">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
