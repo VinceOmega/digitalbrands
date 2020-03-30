@@ -51,7 +51,7 @@
 							));?>
 
 
-							<a href="#" class="clk-rotate db-social-circle"><img src="<?php echo get_template_directory_uri(); ?>/library/images/site/DBcircle.png"></a>
+							<a href="/" class="clk-rotate db-social-circle"><img src="<?php echo get_template_directory_uri(); ?>/library/images/site/DBcircle.png"></a>
 
 						</aside>
 
