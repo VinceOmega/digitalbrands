@@ -406,7 +406,29 @@ header.header.masthead.header-mobile.app{
     background-position: 11% -10%;
 	height: 82.5%;
 	margin-top: -110px;
-  }
+}
+
+header.header.masthead.header-mobile.web{
+    background: url(../images/heros/mobile/web.png) no-repeat;
+    background-size: 1080px 760px;
+    background-position: 38.5% 16%;
+    height: 82.5%;
+    margin-top: -110px;
+}
+
+header.header.masthead.header-mobile.web .hero-header-first{
+	color: white;
+	font-weight: 300;
+	letter-spacing: .15rem;
+}
+
+header.header.masthead.header-mobile.web .hero-header{
+	margin-top: 150px;
+}
+
+header.header.masthead.header-mobile.web .header-cta button{
+	height: 3.8rem;
+}
 
 header.header.masthead.header-mobile.app .hero-header{
 	margin-top: 100px;
