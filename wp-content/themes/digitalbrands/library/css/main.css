@@ -401,11 +401,30 @@ header.header.masthead.header-mobile{
 }
 
 header.header.masthead.header-mobile.app{
-	background: url(../images/heros/mobile/app.png) no-repeat;
-    background-size: 1200px 1000px;
-    background-position: 11% 25%;
-    height: 70%;
+    background: url(../images/heros/mobile/app.png) no-repeat;
+    background-size: 1100px 900px;
+    background-position: 11% -10%;
+	height: 82.5%;
+	margin-top: -110px;
   }
+
+header.header.masthead.header-mobile.app .hero-header{
+	margin-top: 100px;
+}
+
+header.header.masthead.header-mobile.app .hero-header .hero-header-first{
+	letter-spacing: 0;	
+}
+
+header.header.masthead.header-mobile.app .header-cta{
+	top: 125px;
+}
+
+header.header.masthead.header-mobile.app .header-cta button{
+	height: 3.8rem;
+	right: 6%;
+}
+
 
 nav.navbar.navbar-mobile{
   
