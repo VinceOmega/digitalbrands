@@ -62,7 +62,7 @@
 
 		<section class="col-12 mx-auto">
 			<h1 class="hero-header"> 
-				<div class="hero-header-first">YOU DREAM IT. WE CAN BUILD IT.</div> 
+				<div class="hero-header-first">SUPERIOR WEBSITES</div> 
 			</h1>
 		</section>
 
