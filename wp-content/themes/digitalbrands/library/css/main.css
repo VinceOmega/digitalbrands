@@ -416,6 +416,22 @@ header.header.masthead.header-mobile.web{
     margin-top: -110px;
 }
 
+header.header.masthead.header-mobile.shopify{
+    background: url(../images/heros/mobile/shopify.png) no-repeat;
+    background-size: 1080px 760px;
+    background-position: 38.5% 16%;
+    height: 82.5%;
+    margin-top: -110px;
+}
+
+header.header.masthead.header-mobile.marketing{
+    background: url(../images/heros/mobile/marketing.png) no-repeat;
+    background-size: 1080px 760px;
+    background-position: 38.5% 16%;
+    height: 82.5%;
+    margin-top: -110px;
+}
+
 header.header.masthead.header-mobile.web .hero-header-first{
 	color: white;
 	font-weight: 300;
