@@ -400,6 +400,13 @@ header.header.masthead.header-mobile{
   height: 70%;
 }
 
+header.header.masthead.header-mobile.app{
+	background: url(../images/heros/mobile/app.png) no-repeat;
+    background-size: 1200px 1000px;
+    background-position: 11% 25%;
+    height: 70%;
+  }
+
 nav.navbar.navbar-mobile{
   
   background-color: transparent;
