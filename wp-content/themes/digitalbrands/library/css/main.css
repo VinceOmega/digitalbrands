@@ -428,7 +428,7 @@ header.header.masthead.header-mobile.shopify{
     margin-top: -110px;
 }
 
-header.header.masthead.header-mobile.shopify .hero-secondary-header:nth-child(3){
+header.header.masthead.header-mobile.shopify .hero-secondary-header:nth-of-type(2){
 
 	bottom: 15px;
 	position: relative;
