@@ -38,6 +38,10 @@ html > body {
   height: 99.9999999999999%;
 }
 
+.wt-300{
+	font-weight: 300;
+}
+
 .page-wrap{
 
 	margin: 0;
@@ -418,11 +422,64 @@ header.header.masthead.header-mobile.web{
 
 header.header.masthead.header-mobile.shopify{
     background: url(../images/heros/mobile/shopify.png) no-repeat;
-    background-size: 1080px 760px;
-    background-position: 38.5% 16%;
+    background-size: 1080px 660px;
+    background-position: 51.5% -13%;
     height: 82.5%;
     margin-top: -110px;
 }
+
+header.header.masthead.header-mobile.shopify .hero-secondary-header:nth-child(3){
+
+	bottom: 15px;
+	position: relative;
+
+}
+
+header.header.masthead.header-mobile.shopify .hero-header{
+
+	margin-top: 180px;
+
+}
+
+header.header.masthead.header-mobile.shopify .hero-header div.hero-header-first{
+
+	color: #5591E5;
+	font-size: 2.1rem;
+
+}
+
+header.header.masthead.header-mobile.shopify .header-cta{
+
+    top: 30px;
+
+}
+
+
+header.header.masthead.header-mobile.shopify .text-under-cta h2:first-child{
+
+	font-size: 2.3rem;
+
+}
+
+header.header.masthead.header-mobile.shopify .text-under-cta h2:nth-child(2){
+	font-family: 'Noto Sans';
+	font-weight: 700;
+
+}
+
+header.header.masthead.header-mobile.shopify .text-under-cta h2{
+
+	font-size: 1.5rem;
+
+}
+
+header.header.masthead.header-mobile.shopify .header-cta button{
+
+	height: 60px;
+	font-size: 1rem;
+
+}
+
 
 header.header.masthead.header-mobile.marketing{
     background: url(../images/heros/mobile/marketing.png) no-repeat;
