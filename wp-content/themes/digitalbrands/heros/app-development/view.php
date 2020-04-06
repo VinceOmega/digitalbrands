@@ -66,10 +66,12 @@
 			</h1>
 		</section>
 
-		<section class="col-12 mx-auto">
+		<section class="col-12 mx-auto header-cta-section">
 			<div class="header-cta">
 				<button type="button" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</button>
 			</div>
+			<p class="capslock cta-text">work with our award winning</p>
+			<p class="capslock cta-text">app development team</p>
 		</section>
 
 	</div>

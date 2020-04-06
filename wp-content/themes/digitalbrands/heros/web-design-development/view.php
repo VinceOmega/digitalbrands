@@ -60,10 +60,15 @@
 
 	<div class="row">
 
-		<section class="col-12 mx-auto">
+		<section class="col-12 mx-auto hero-header-section">
 			<h1 class="hero-header"> 
 				<div class="hero-header-first">SUPERIOR WEBSITES</div> 
 			</h1>
+			<div class="hero-header-text-collection">
+				<p class="capslock hero-header-text">your new website can be</p>
+				<p class="capslock hero-header-text">launched and live</p>
+				<p class="capslock hero-header-text">in 14 days or less</p>
+			</div>
 		</section>
 
 		<section class="col-12 mx-auto">

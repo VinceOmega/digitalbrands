@@ -528,8 +528,26 @@ header.header.masthead.header-mobile.web .hero-header{
 	margin-top: 150px;
 }
 
+
+header.header.masthead.header-mobile.web .hero-header-text-collection{
+	top: 60px;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+header.header.masthead.header-mobile.web .hero-header-text{
+	font-weight: 700;
+	margin: 0;
+}
+
 header.header.masthead.header-mobile.web .header-cta button{
-	height: 3.8rem;
+    height: 3.8rem;
+	width: 19.5rem;
+}
+
+header.header.header-mobile.web .header-cta{
+	position: relative;
+	top: 90px;
 }
 
 header.header.masthead.header-mobile.app .hero-header{
@@ -540,13 +558,25 @@ header.header.masthead.header-mobile.app .hero-header .hero-header-first{
 	letter-spacing: 0;	
 }
 
-header.header.masthead.header-mobile.app .header-cta{
+header.header.masthead.header-mobile.app .header-cta-section{
 	top: 125px;
+}
+
+header.header.masthead.header-mobile.app .header-cta{
+	top: 0;
+}
+
+header.header.masthead.header-mobile.app .header-cta-section .cta-text{
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin: 0;
 }
 
 header.header.masthead.header-mobile.app .header-cta button{
 	height: 3.8rem;
-	right: 6%;
+    /* right: 6%; */
+	width: 18.2rem;
+	top: 2px;
 }
 
 
@@ -590,6 +620,7 @@ header.header.header-mobile .header-cta{
   position: relative;
   top: 150px;
 }
+
 
 header.header.header-mobile .header-cta button{
   font-weight: 700;
