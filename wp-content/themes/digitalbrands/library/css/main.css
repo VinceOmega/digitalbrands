@@ -484,9 +484,38 @@ header.header.masthead.header-mobile.shopify .header-cta button{
 header.header.masthead.header-mobile.marketing{
     background: url(../images/heros/mobile/marketing.png) no-repeat;
     background-size: 1080px 760px;
-    background-position: 38.5% 16%;
+    background-position: 49.5% 16%;
     height: 82.5%;
     margin-top: -110px;
+}
+
+header.header.masthead.header-mobile.marketing .hero-header{
+	margin-top: 120px;
+    margin-left: 0;
+}
+
+header.header.masthead.header-mobile.marketing .header-cta{
+	top: 0px;
+}
+
+header.header.masthead.header-mobile.marketing .header-cta-section{
+	top: 140px;
+}
+
+header.header.masthead.header-mobile.marketing .header-cta-section .cta-text{
+	font-weight: 700;
+}
+
+header.header.masthead.header-mobile.marketing .header-cta button{ 
+	font-weight: 700;
+	height: 60px;
+}
+
+header.header.masthead.header-mobile.marketing .hero-header-first{
+
+	font-size: 2.2rem;
+	font-weight: 300;
+	
 }
 
 header.header.masthead.header-mobile.web .hero-header-first{
