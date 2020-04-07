@@ -118,6 +118,16 @@ function loadGravatars() {
 
 /* Mobile Nav Controls - END */
 
+
+function featureControls(){
+  $( ".btn-toggle" ).click(function(){
+
+    $(this).parents( '.w3-card' ).find('.w3-overlay').toggleClass( 'show' );
+    $(this).parents( '.w3-card' ).find('ul.list').toggleClass( 'list-partial' );
+
+  });
+}
+
 /*
  * Put all your regular jQuery in here.
 */
@@ -129,6 +139,7 @@ jQuery(document).ready(function($) {
   */
   loadGravatars();
   toggleMobileMenu();
+  featureControls();
   // $(document).click(function(event){
   //   console.log(event.target);
   // })

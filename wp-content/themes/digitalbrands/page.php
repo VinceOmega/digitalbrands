@@ -384,9 +384,9 @@
 				];
 			?>
 				<?php foreach( $brands as $row => $brands ){ ?>
-					<ul>
+					<ul class="brands">
 						<?php foreach( $brands as $entry => $img ){ ?>
-							<li>
+							<li class="brands-items">
 								<a href="##"><img src="<?php echo get_template_directory_uri().'/library/images/brands/'.$img; ?>"></a>
 							</li>
 						<?php }; ?>
