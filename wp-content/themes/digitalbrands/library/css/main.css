@@ -395,6 +395,21 @@ nav div.menu ul li a:active
 
 }
 
+
+.features-icons-item .features-icons-icon ul{
+	display: block;
+	text-align: center;
+}
+
+.features-icons-item .features-icons-icon ul li{
+	display: inline-block;
+}
+
+.features-icons-item .features-icons-icon ul li img{
+	width: 32px;
+	height: auto;
+}
+
 .showcase .container .row{
 	flex-direction: row;
 }
