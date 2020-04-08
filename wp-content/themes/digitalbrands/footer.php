@@ -1,5 +1,11 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
+				<div class="footer-flavor-text">
+					<h3 class="header-first-word">Digital<strong class="header-second-word">Brands</strong><span class="supascript">&copy;</span></h3>
+					<p>We are a team of creative thinkers and problem solvers dedicated to expanding the limits of what is possible by helping brands achieve their goals. At Digital Brands, we utilize our breadth of experience working with major corporations to fuel creative innovation that delivers real results to companies large and small.</p>
+				</div>
+
+
 				<div id="mobile-nav" class="mobile-nav d-flex d-lg-none d-md-none">
 
 					<nav role="navigation">
