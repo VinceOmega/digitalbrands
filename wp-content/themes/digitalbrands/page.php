@@ -299,82 +299,55 @@
       	<div class="row">
 			<div class="showcase-item">
 				<section class="col-3 column" >
-					<img src="https://via.placeholder.com/146x121">
-					<img src="https://via.placeholder.com/146x121">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/superphone.png">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/BPMSUPREME.png">
 				</section>
 				<section class="col-9 column" >
-					<img src="https://via.placeholder.com/300x251">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/dash.png">
 				</section>
 			</div>
 			<div class="showcase-item showcase-item-reversed">
 				<section class="col-9 column" >
-					<img src="https://via.placeholder.com/300x251">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/formlabs.png">
 				</section>
 				<section class="col-3 column" >
-					<img src="https://via.placeholder.com/146x121">
-					<img src="https://via.placeholder.com/146x121">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/negative.png">
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/kkw.png">
 				</section>
 			</div>
 	  	</div>
 	  	<div class="row">
 		  	<div class="showcase-item showcase-item-reversed">
-				<section class="col-9 column" >
-					<img src="https://via.placeholder.com/300x251">
+				<section class="col-6 column" >
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/hex.png">
 				</section>
-				<section class="col-3 column" >
-					<img src="https://via.placeholder.com/146x121">
-					<img src="https://via.placeholder.com/146x121">
-				</section>
-			</div>
-			<div class="showcase-item">
-				<section class="col-3 column" >
-					<img src="https://via.placeholder.com/146x121">
-					<img src="https://via.placeholder.com/146x121">
-				</section>
-				<section class="col-9 column" >
-					<img src="https://via.placeholder.com/300x251">
-				</section>
-			</div>
-		</div>
-		<div class="row">
-			<div class="showcase-item ">
-					<section class="col-3 column" >
-						<img src="https://via.placeholder.com/146x121">
-						<img src="https://via.placeholder.com/146x121">
-					</section>
-					<section class="col-9 column" >
-						<img src="https://via.placeholder.com/300x251">
-					</section>
-			</div>
-			<div class="showcase-item showcase-item-reversed">
-				<section class="col-9 column" >
-					<img src="https://via.placeholder.com/300x251">
-				</section>
-				<section class="col-3 column" >
-					<img src="https://via.placeholder.com/146x121">
-					<img src="https://via.placeholder.com/146x121">
+				<section class="col-6 column" >
+					<img src="<?php echo get_template_directory_uri();?>/library/images/work/thanotech.png">
 				</section>
 			</div>
 		</div>
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="call-to-action rounded-white">
-    <div class="container">
+  <!--- Testimonials --->
+  <div class="container">
 
-	<div class="row">
+		<div class="row">
 
-		<div class="col-12">
+			<div class="col-12">
+
+			</div>
+
+			<div class="col-12">
+				<?php echo do_shortcode( '[rt-testimonial id="26" title="Test Shortcode"]' ) ?>
+			</div>
 
 		</div>
 
-		<div class="col-12">
-			<?php echo do_shortcode( '[rt-testimonial id="26" title="Test Shortcode"]' ) ?>
 		</div>
 
-	</div>
-
+  <!-- Brands -->
+  <section class="brands rounded-white">
       <div class="row">
         <div class="col-12 mx-auto">
           <h2 class="mb-4">Ready to get started? Sign up now!</h2>

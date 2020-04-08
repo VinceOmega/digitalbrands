@@ -756,11 +756,23 @@ nav.navbar.navbar-mobile:hover{
 		font-size: .8rem;
 	}
 
+	.showcase .showcase-item img{
+		max-width: 300px;
+	}
+
 
 	.about-us .about-us-header{
 		text-align: center;
 		color: #086Af3;
 		font-size: 30px;
+	}
+
+	.brands.rounded-white{
+		text-align: center;
+	}
+
+	.about-us h5{
+		padding: 1rem 2rem;
 	}
 
 	footer.footer .mobile-nav{
@@ -921,19 +933,28 @@ nav.navbar.navbar-mobile:hover{
 
 	footer.footer .footer-flavor-text{
 		padding: 0 10px;
-		min-height: 300px;
+		min-height: 400px;
 		display: block;
+	}
+
+	.footer.footer .footer-flavor-text p {
+
+		padding: 1rem 2rem;
+
 	}
 
 	footer.footer .footer-flavor-text h3{
 		text-align: center;
 		font-size: 1.8rem;
+		margin-top: 1.1rem;
 	}
 
 	footer.footer .footer-flavor-text .header-first-word,
 	footer.footer .footer-flavor-text .supascript{
 		font-weight: 300;
 	}
+
+
 
 	.showcase .container .row,
 	.showcase .container .showcase-item{
