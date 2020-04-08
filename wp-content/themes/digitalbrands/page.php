@@ -339,12 +339,12 @@
 			</div>
 
 			<div class="col-12">
-				<?php echo do_shortcode( '[rt-testimonial id="26" title="Test Shortcode"]' ) ?>
+				<?php echo do_shortcode( '[testimonial_view id="1"]' ) ?>
 			</div>
 
 		</div>
 
-		</div>
+	</div>
 
   <!-- Brands -->
   <section class="brands rounded-white">
