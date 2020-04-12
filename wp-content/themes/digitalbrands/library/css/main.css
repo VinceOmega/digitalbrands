@@ -687,7 +687,7 @@ header.header.masthead.header-mobile.marketing{
 
 html.iphone header.header.masthead.header-mobile.marketing{
 	background: url(../images/heros/mobile/marketing.png) no-repeat;
-    background-size: 1080px 760px;
+    background-size: 790px 560px;
     background-position: 49.5% 41%;
 	margin-top: -110px;
 	min-height: 28rem;
@@ -697,6 +697,14 @@ html.iphone header.header.masthead.header-mobile.marketing{
 	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 	height: fill-available;
 	height: stretch;
+}
+
+html.iphone header.header.masthead.header-mobile.marketing .header-cta-section{
+	top: 100px;
+}
+
+html.iphone header.header.masthead.header-mobile.marketing .header-cta-section p.cta-text{
+	font-size: .9rem;
 }
 
 header.header.masthead.header-mobile.marketing .hero-header{
