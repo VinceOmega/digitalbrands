@@ -467,7 +467,13 @@ html.iphone header.header.masthead.header-mobile{
 	background: url('../images/heros/mobile/home.png') no-repeat;
     background-size: 55%;
     background-position: 60% 100%;
-    height: 22rem;
+	min-height: 22rem;
+	max-height: 25rem;
+	height: 100%;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
 }
 
 header.header.masthead.header-mobile.app{
@@ -482,8 +488,14 @@ html.iphone header.header.masthead.header-mobile.app{
     background: url(../images/heros/mobile/app.png) no-repeat;
     background-size: 900px 700px;
     background-position: 11% -10%;
-    height: 28rem;
-    margin-top: -110px;
+	margin-top: -110px;
+	min-height: 28rem;
+    max-height: 32rem;
+    height: 100%;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
 }
 
 html.iphone header.header.masthead.header-mobile.app .hero-header{
@@ -511,12 +523,18 @@ header.header.masthead.header-mobile.web{
     margin-top: -110px;
 }
 
-html.iphone header.header.masthead.header-mobile.web{
-	background: url(../images/heros/mobile/web.png) no-repeat;
-    background-size: 700px 500px;
+html.iphone header.header.masthead.header-mobile.web {
+    background: url(../images/heros/mobile/web.png) no-repeat;
+    background-size: 700px 580px;
     background-position: 45.0% -40%;
-    height: 28rem;
     margin-top: -110px;
+    min-height: 28rem;
+    max-height: 32rem;
+    height: 100%;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
 }
 
 html.iphone header.masthead.header-mobile.web .hero-header{
@@ -554,10 +572,16 @@ header.header.masthead.header-mobile.shopify{
 
 html.iphone header.header.masthead.header-mobile.shopify{
     background: url(../images/heros/mobile/shopify.png) no-repeat;
-    background-size: 1080px 660px;
-    background-position: 51.5% -13%;
-	height: 28rem;
-    margin-top: -110px;
+    background-size: 800px 560px;
+    background-position: 51.5% -6%;
+	margin-top: -110px;
+	min-height: 28rem;
+    max-height: 32rem;
+	height: 100%;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
 }
 
 header.header.masthead.header-mobile.shopify .hero-secondary-header:nth-of-type(2){
@@ -569,8 +593,14 @@ header.header.masthead.header-mobile.shopify .hero-secondary-header:nth-of-type(
 
 header.header.masthead.header-mobile.shopify .hero-header{
 
-	margin-top: 180px;
+	margin-top: 140px;
 
+}
+
+html.iphone header.header.masthead.header-mobile.shopify .hero-header{
+
+	margin-top: 150px;
+	font-weight: 300;
 }
 
 header.header.masthead.header-mobile.shopify .hero-header div.hero-header-first{
@@ -580,9 +610,26 @@ header.header.masthead.header-mobile.shopify .hero-header div.hero-header-first{
 
 }
 
+html.iphone header.header.masthead.header-mobile.shopify .hero-header div.hero-header-first{
+
+	letter-spacing: 0;
+	font-size: 2rem;
+
+}
+
+html.iphone header.header.masthead.header-mobile.shopify .hero-secondary-header{
+	font-size: 1.4rem;
+}
+
 header.header.masthead.header-mobile.shopify .header-cta{
 
     top: 30px;
+
+}
+
+html.iphone header.header.masthead.header-mobile.shopify .header-cta{
+
+	top: 20px;
 
 }
 
@@ -593,6 +640,11 @@ header.header.masthead.header-mobile.shopify .text-under-cta h2:first-child{
 
 }
 
+html.iphone header.header.masthead.header-mobile.shopify .text-under-cta h2:first-child{
+
+	font-size: 1.8rem;
+
+}
 header.header.masthead.header-mobile.shopify .text-under-cta h2:nth-child(2){
 	font-family: 'Noto Sans';
 	font-weight: 700;
@@ -602,6 +654,18 @@ header.header.masthead.header-mobile.shopify .text-under-cta h2:nth-child(2){
 header.header.masthead.header-mobile.shopify .text-under-cta h2{
 
 	font-size: 1.5rem;
+
+}
+
+html.iphone header.header.masthead.header-mobile.shopify .text-under-cta h2{
+
+	font-size: 1.1rem;
+
+}
+
+html.iphone header.header.masthead.header-mobile.shopify .text-under-cta{
+
+	/* margin-top: 60px; */
 
 }
 
@@ -625,8 +689,14 @@ html.iphone header.header.masthead.header-mobile.marketing{
 	background: url(../images/heros/mobile/marketing.png) no-repeat;
     background-size: 1080px 760px;
     background-position: 49.5% 41%;
-    height: 28rem;
-    margin-top: -110px;
+	margin-top: -110px;
+	min-height: 28rem;
+    max-height: 32rem;
+	height: 100%;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
 }
 
 header.header.masthead.header-mobile.marketing .hero-header{
