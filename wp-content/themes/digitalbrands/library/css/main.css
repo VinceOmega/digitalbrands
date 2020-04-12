@@ -142,6 +142,14 @@ body  h6 {
 
 }
 
+html.iphone .w3-card .right-btn button.btn-lead{
+	line-height: 1px;
+    font-size: .8rem;
+    height: 2rem;
+    width: auto;
+    border-radius: 5px;
+}
+
 .w3-card .right-btn button.btn-toggle{
 
 	line-height: 1px;
@@ -157,10 +165,13 @@ body  h6 {
 
 	list-style-type: none;
 	font-size: .8rem;
-	text-indent: 1rem;
 	max-height: 1500px;
 	transition: all .8s ease-in-out;
 
+}
+
+html.iphone .w3-card .list{
+	padding: .8rem;
 }
 
 .w3-card h4{
@@ -395,6 +406,10 @@ nav div.menu ul li a:active
 
 }
 
+html.iphone nav.navbar-mobile p#logo{
+	font-size: 1.6rem;
+}
+
 
 .features-icons-item .features-icons-icon ul{
 	display: block;
@@ -428,6 +443,12 @@ nav div.menu ul li a:active
 	width: 146px;
 }
 
+html.iphone .showcase .container .showcase-item .col-3 img{
+	margin: .2rem .2rem;
+	width: 146px;
+	height: 146px;
+}
+
 .showcase .container .showcase-item .column{
 	display: flex;
 	flex-direction: column;
@@ -442,11 +463,26 @@ header.header.masthead.header-mobile{
   height: 70%;
 }
 
+html.iphone header.header.masthead.header-mobile{
+	background: url('../images/heros/mobile/home.png') no-repeat;
+    background-size: 55%;
+    background-position: 60% 100%;
+    height: 22rem;
+}
+
 header.header.masthead.header-mobile.app{
     background: url(../images/heros/mobile/app.png) no-repeat;
     background-size: 1100px 900px;
     background-position: 11% -10%;
 	height: 82.5%;
+	margin-top: -110px;
+}
+
+html.iphone header.header.masthead.header-mobile.app{
+    background: url(../images/heros/mobile/app.png) no-repeat;
+    background-size: 1100px 900px;
+    background-position: 11% -10%;
+	height: 28rem;
 	margin-top: -110px;
 }
 
@@ -458,11 +494,31 @@ header.header.masthead.header-mobile.web{
     margin-top: -110px;
 }
 
+html.iphone header.header.masthead.header-mobile.web{
+    background: url(../images/heros/mobile/web.png) no-repeat;
+    background-size: 1080px 760px;
+    background-position: 38.5% 16%;
+	height: 28rem;
+    margin-top: -110px;
+}
+
+html.iphone header.header-mobile .header-cta{
+	top: 80px;
+}
+
 header.header.masthead.header-mobile.shopify{
     background: url(../images/heros/mobile/shopify.png) no-repeat;
     background-size: 1080px 660px;
     background-position: 51.5% -13%;
     height: 82.5%;
+    margin-top: -110px;
+}
+
+html.iphone header.header.masthead.header-mobile.shopify{
+    background: url(../images/heros/mobile/shopify.png) no-repeat;
+    background-size: 1080px 660px;
+    background-position: 51.5% -13%;
+	height: 28rem;
     margin-top: -110px;
 }
 
@@ -524,6 +580,14 @@ header.header.masthead.header-mobile.marketing{
     background-size: 1080px 760px;
     background-position: 49.5% 41%;
     height: 82.5%;
+    margin-top: -110px;
+}
+
+html.iphone header.header.masthead.header-mobile.marketing{
+	background: url(../images/heros/mobile/marketing.png) no-repeat;
+    background-size: 1080px 760px;
+    background-position: 49.5% 41%;
+    height: 28rem;
     margin-top: -110px;
 }
 
@@ -644,9 +708,19 @@ header.header.header-mobile .hero-header .hero-header-first{
   font-size: 2.5rem
 }
 
+html.iphone header.header.header-mobile .hero-header .hero-header-first{
+	letter-spacing: none;
+	font-size: 1.8rem
+}
+
 header.header.header-mobile .hero-header .hero-header-second{
   letter-spacing: .15rem;
   font-size: 2.5rem
+}
+
+html.iphone header.header.header-mobile .hero-header .hero-header-second{
+	letter-spacing: none;
+	font-size: 1.8rem
 }
 
 header.header.header-mobile .hero-header .hero-header-sub{
@@ -656,6 +730,15 @@ header.header.header-mobile .hero-header .hero-header-sub{
   font-weight: 700;
   letter-spacing: .04rem;
   font-family: 'Noto Sans';
+}
+
+html.iphone header.header.header-mobile .hero-header .hero-header-sub{
+	font-size: .8rem;
+	line-height: 0;
+	margin-top: -1rem;
+	font-weight: 700;
+	letter-spacing: .04rem;
+	font-family: 'Noto Sans';
 }
 
 header.header.header-mobile .header-cta{
@@ -773,6 +856,11 @@ nav.navbar.navbar-mobile:hover{
 
 	.showcase .showcase-item img{
 		max-width: 300px;
+	}
+
+	html.iphone .showcase .showcase-item img{
+		max-width: 300px;
+		height: 146px;
 	}
 
 
@@ -969,6 +1057,17 @@ nav.navbar.navbar-mobile:hover{
 		font-weight: 300;
 	}
 
+	html.iphone footer.footer .mobile-nav nav aside.menu-nav-display .mobile-menu-close-btn-container{
+		font-size: 2rem;
+	}
+
+	html.iphone footer.footer .mobile-nav nav p#logo-mobile a{
+		font-size: 2rem;
+	}
+
+	html.iphone footer.footer .mobile-nav nav aside.menu-nav-display div.nav ul li{
+		font-size: 1.3rem;
+	}
 
 
 	.showcase .container .row,

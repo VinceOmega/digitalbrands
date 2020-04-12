@@ -1,9 +1,21 @@
-<!doctype html class="container-fluid">
+<?php
+
+	$mobileClass = '';
+	
+	if( preg_match( '/iphone/i' , $_SERVER['HTTP_USER_AGENT'], $matches ) ) {
+
+		$mobileClass = 'iphone';
+
+
+	}
+	
+?>
+<!doctype html class="container-fluids">
 
 <!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js <?php echo $mobileClass; ?>"><!--<![endif]-->
 
 	<head>
 		<meta charset="utf-8">
