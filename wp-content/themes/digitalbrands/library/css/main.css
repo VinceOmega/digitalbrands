@@ -186,7 +186,7 @@ html.iphone .w3-card .list{
 
 .w3-card .eve{
 	color: #086AF3;
-	font-size: 1.6rem;
+	font-size: 1.1rem;
 	opacity: .86;
 }
 
@@ -406,6 +406,7 @@ nav div.menu ul li a:active
 
 }
 
+
 html.iphone nav.navbar-mobile p#logo{
 	font-size: 1.6rem;
 }
@@ -414,6 +415,32 @@ html.iphone nav.navbar-mobile p#logo{
 .features-icons-item .features-icons-icon ul{
 	display: block;
 	text-align: center;
+}
+
+.features-icons div.container div.features-icons-item div.features-icons-icon ul li img{
+	width: auto;
+	max-height: 32px;
+	height: -moz-available;          /* WebKit-based browsers will ignore this. */
+	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	height: fill-available;
+	height: stretch;
+	
+}
+
+/* wordpress special */
+.features-icons div.container div.features-icons-item div.features-icons-icon ul li img.wordpress{
+	width: 60px;
+	max-height: 999px;
+	height: 60px;
+	
+}
+
+/* andorid special */
+.features-icons div.container div.features-icons-item div.features-icons-icon ul li img.android{
+	width: 55px;
+	max-height: 999px;
+	height: 45px;
+	
 }
 
 .features-icons-item .features-icons-icon ul li{
@@ -932,6 +959,10 @@ nav.navbar.navbar-mobile:hover{
 		display: inline-block;
 	}
 
+	.brands .brands-items a img{
+		max-width: 32px;
+		height: auto;
+	}
 
 	.showcase > div.container-fluid > div.row{
 		width: 80%;
@@ -943,7 +974,7 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	.showcase.rounded-black .showcase-item{
-		margin: 1rem auto;
+		margin: 0 auto;
 	}
 
 	.showcase.rounded-black .showcase-item .column{
@@ -1175,6 +1206,12 @@ nav.navbar.navbar-mobile:hover{
 	footer.footer .footer-flavor-text .header-first-word,
 	footer.footer .footer-flavor-text .supascript{
 		font-weight: 300;
+	}
+
+	footer.footer .mobile-nav nav a:visited,
+	footer.footer .mobile-nav nav a:active,
+	footer.footer .mobile-nav nav a:hover{
+		color: white;
 	}
 
 	html.iphone footer.footer .mobile-nav nav aside.menu-nav-display .mobile-menu-close-btn-container{
