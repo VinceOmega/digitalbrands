@@ -1,6 +1,16 @@
 {
 
-    "home" : "home"
-    "app-development" : "appdev",
-    "web-design-development" : "webdev"
+	"pages" : {
+
+    	"home" : "home",
+    	"app-development" : "app-development",
+    	"web-design-development" : "web-design-development",
+    	"brand-growth" : "brand-growth",
+    	"lead-generation", "lead-generation",
+    	"marketing" : "marketing",
+    	"turnkey-shopify" : "turnkey-shopify",
+    	"consulting" : "consulting"
+	}
+
+
 }
