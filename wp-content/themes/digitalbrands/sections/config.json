@@ -1,47 +1,84 @@
 {
 	"sections" : {
 
-		"home" : {
-
-
-
-		},
-
-		"app-development" : {
-
-
-
-		},
-
-		"web-design-development" : {
-
-
-		},
-
-		"brand-growth" : {
-
-
-		},
-
-		"lead-generation" : {
-
-
-		},
-
-		"marketing" : {
-
-
-		},
-
-		"turnkey-shopify" : {
-
-
-		},
-
-		"consulting" : {
-
+		"home" : [
 			
-		}
+				"black-bar-icons",
+				"packages",
+				"work",
+				"testimonials",
+				"brands",
+				"about-us"
+		],
+
+		"app-development" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		],
+
+		"web-design-development" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		],
+
+		"brand-growth" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		],
+
+		"lead-generation" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		],
+
+		"marketing" : [
+
+			"black-bar-icons",
+			"packages",
+			"brands",
+			"content"
+
+		],
+
+		"turnkey-shopify" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		],
+
+		"consulting" : [
+
+			"black-bar-icons",
+			"packages",
+			"work",
+			"testimonials",
+			"content"
+
+		]
 
 	}
 }

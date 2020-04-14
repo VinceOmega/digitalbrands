@@ -1,0 +1,170 @@
+{
+
+    "icons": {
+
+        "android"       :   {
+
+            "filename"  :   "android",
+            "filetype"  :   "png",
+            "class"     :   "android"
+        },
+
+        "apple"         :   {
+
+            "filename"  :   "apple",
+            "filetype"  :   "png",
+            "class"     :   "apple"
+
+        },
+
+        "amazon"        :   {
+
+            "filename"      :   "amazon",
+            "filename-alt"  :   "amazon-white",
+            "filetype"      :   "png",
+            "class"         :   "amazon"
+
+        },
+        
+        "instagram"     :   {
+
+            "filename"  :   "instagram",
+            "filetype"  :   "png",
+            "class"     :   "instagram"
+
+        },
+
+        "wordpress"     :   {
+
+            "filename"  :   "wordpress",
+            "filetype"  :   "png",
+            "class"     :   "wordpress"
+
+        },
+
+        "shopify"       :   {
+
+            "filename"  :   "shopify",
+            "filetype"  :   "png",
+            "class"     :   "shopify"
+
+        },
+
+        "forbes"        :   {
+
+            "filename"  :   "forbes",
+            "filetype"  :   "svg",
+            "class"     :   "forbes"
+
+        },
+
+        "react"         :   {
+
+            "filename"  :   "react",
+            "filetype"  :   "png",
+            "class"     :   "react"
+        
+        },
+
+        "fox"           :   {
+
+            "filename"  :   "fox",
+            "filetype"  :   "png",
+            "class"     :   "fox"
+        
+        },
+
+        "people"        :   {
+
+            "filename"  :   "people",
+            "filetype"  :   "png",
+            "class"     :   "people"
+        
+        },
+
+        "wix"           :   {
+
+            "filename"  :   "wix",
+            "filetype"  :   "png",
+            "class"     :   "wix"
+        
+        },
+
+        "woo"           :   {
+
+            "filename"  :   "woo",
+            "filetype"  :   "png",
+            "class"     :   "woo"
+        
+        },
+
+        "magento"       :   {
+
+            "filename"  :   "magento",
+            "filetype"  :   "png",
+            "class"     :   "magento"
+        
+        },
+
+        "ebay"          :   {
+
+            "filename"  :   "ebay",
+            "filetype"  :   "png",
+            "class"     :   "ebay"
+        
+        },
+
+        "facebook"      :   {
+
+            "filename"  :   "facebook",
+            "filetype"  :   "png",
+            "class"     :   "facebook"
+        
+        },
+
+        "tiktok"        :   {
+
+            "filename"  :   "tik-tok",
+            "filetype"  :   "png",
+            "class"     :   "tik-tok"
+        
+        },
+
+        "linkedin"      : {
+
+            "filename"  :   "linkedin",
+            "filetype"  :   "png",
+            "class"     :   "linkedin"
+
+        },
+
+        "snapchat"      : {
+
+            "filename"  :   "snapchat",
+            "filetype"  :   "png",
+            "class"     :   "snapchat"
+
+        },
+
+        "youtube"      : {
+
+            "filename"  :   "youtube",
+            "filetype"  :   "png",
+            "class"     :   "youtube"
+
+        }
+
+    },
+
+    "pages" :{
+
+        "home" : [ "android", "apple", "amazon", "instagram", "wordpress", "shopify" ],
+    	"app-development" : [ "forbes", "apple", "react", "android", "fox", "people" ],
+    	"web-design-development" : [ "wordpress", "wix", "shopify", "woo", "magento" ],
+    	"brand-growth" : [ ],
+    	"lead-generation": [],
+    	"marketing" : [ "tiktok", "instagram", "facebook", "linkedin", "snapchat", "youtube" ],
+    	"turnkey-shopify" : [ "ebay", "amazon", "shopify", "instagram", "facebook" ],
+    	"consulting" : []
+    }
+}
