@@ -1,0 +1,1119 @@
+{
+
+    "packages" : {
+
+        "web" : {
+
+            "heading"       : "web design + development",
+            "subheading"    : "starting at $1000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+
+                        "heading"   : "",
+                        "list"      : [
+
+                        "1-20 Unique Pages of Web Design",
+                        "Custom Made, Interactive, Dynamic &amp; High-End Design",
+                        "Customized WordPress &amp; PHP Development",
+                        "Interactive Sliding Banners",
+                        "Up to 15 Custom Made Banner Designs",
+                        "Stock Images",
+                        "Unlimited Revisions",
+                        "Special Hover Effects",
+                        "Content Management System",
+                        "Online Appointment + Booking + Scheduling + Online Ordering Integration",
+                        "Online Payment Integration",
+                        "Multi Lingual",
+                        "Custom Dynamic Forms",
+                        "Signup Area (For Newsletters, Offers etc.)",
+                        "Search Bar",
+                        "Live Feeds of Social Networks Integration",
+                        "Mobile Responsive",
+                        "Up to 15 Professional Email ID’s",
+                        "Google Friendly Sitemap",
+                        "Search Engine Submission",
+                        "Complete W3C Certified HTML",
+                        "Industry specified Team of Award Winning Designers and Developers",
+                        "Complete Deployment",
+                        "Complete Source Files",
+                        "Ownership Rights",
+                        "Satisfaction Guarantee"
+                        ]
+
+                    }
+
+                ]                
+
+            }
+
+        },
+
+        "marketing" : {
+
+            "heading"       : "marketing",
+            "subheading"    : "starting at $500",
+            "features"      : {
+
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+
+                        "Copywriting &amp; Visual designs",
+                        "Business Page Optimization",
+                        "Ad Campaign Management",
+                        "Spam monitoring",
+                        "Multiple postings per week Facebook + Twitter + Instagram + LinkedIn",
+                        "Reputation Management<",
+                        "Social Account Setup",
+                        "Content Creation",
+                        "Social Media Hearing",
+                        "Query and comments reply",
+                        "Keywords",
+                        "On-page Optimization",
+                        "Meta Title Optimization",
+                        "Meta Description Optimization",
+                        "Image alt text",
+                        "Robots.txt Creation",
+                        "Sitemap.xml Creation",
+                        "Google Webmaster Code Creation",
+                        "Google Analytics Code Creation",
+                        "Keywords Research and Analysis",
+                        "Important HTML Tags (H1, H2 , H3 )",
+                        "Off-Page Optimization",
+                        "Business Listings",
+                        "Social Media Profile Creation",
+                        "Social Bookmarks",
+                        "Forum Postings",
+                        "Blog Commenting",
+                        "Infographics Submission",
+                        "Image Submission",
+                        "Slide Share Submission",
+                        "Important HTML Tags (H1, H2 , H3 )",
+                        "Content",
+                        "Press Releases",
+                        "Articles Writing/Submission",
+                        "Blogs Posts Writing and Submission",
+                        "Satisfaction Guarantee"
+
+                        ]
+
+                    }
+
+                ]
+
+            }
+
+        },
+
+        "ecommerce" : {
+
+            "heading"       : "ecommerce",
+            "subheading"    : "starting at $1000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                        "1 to 15 Pages of Custom Website Design",
+                        "Complete Development &amp; Deployment",
+                        "Unlimited Revisions",
+                        "Interactive Sliding Banners",
+                        "Custom, Interactive &amp; Dynamic Design",
+                        "Customized WordPress &amp; PHP Development",
+                        "Interactive Sliding Banners",
+                        "Up to 5 Banner Designs<",
+                        "Unlimited Products",
+                        "15 Stock Images",
+                        "Unlimited Revisions",
+                        "Special Hover Effects",
+                        "Content Management System",
+                        "Online Appointment/Booking/Scheduling/Online Ordering Integration",
+                        "Online Payment Integration",
+                        "Multi Lingual",
+                        "Custom Dynamic Forms",
+                        "Signup Area (For Newsletters, Offers etc.)",
+                        "Search Bar",
+                        "Live Feeds of Social Networks integration",
+                        "Free Domain Integration",
+                        "Google Friendly Sitemap",
+                        "Search Engine Submission",
+                        "Complete W3C Certified HTML",
+                        "Award Winning Designers &amp; Developers"
+                        ]
+
+                    }
+                ]
+
+            }
+        },
+
+        "app" : {
+
+            "heading"       : "app development",
+            "subheading"    : "starting at $2000",
+            "features"      : {
+
+                "lists"   : [
+
+                
+
+                    {
+
+                        "heading"   : "Platform Expertise",
+                        "list"      : [
+                            "iOS",
+                            "Carplay",
+                            "iPad",
+                            "Apple TV",
+                            "Android",
+                            "Android Auto",
+                            "Chromecast",
+                            "Google Home<",
+                            "Amazon Fire Phone",
+                            "Amazon Fire Stick/TV",
+                            "Bosch MySPIN iOS &amp; Android",
+                            "GM Dashboard Integration for Cars",
+                            "Ford Sync Applink",
+                            "Sonos",
+                            "Alexa",
+                            "Xbox",
+                            "Mirror Link (Rock Scout)"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "Development Expertise",
+                        "list"      : [
+                            "Assembler ",
+                            "C",
+                            "C++",
+                            "Objective-C",
+                            "Java",
+                            "Node.JS",
+                            "Javascript",
+                            "Typescript ",
+                            "Python",
+                            "C#/VB.Net",
+                            "PHP",
+                            "react native",
+                            "swift"
+                        ]
+
+                    }
+
+                ]
+
+            }
+
+        },
+
+        "brand" : {
+          
+            "heading"       : "brand growth",
+            "subheading"    : "starting at $2000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Storyboard Creation",
+                            "Digital Commercial Creation",
+                            "TalentModel Hiring",
+                            "Drip Sequence",
+                            "Blogs",
+                            "Website Redesign",
+                            "Content Strategy",
+                            "Press Releases<",
+                            "Viral Engagement",
+                            "Packaging",
+                            "Promotional Materials",
+                            "Seasonal Planning"
+                        ]
+
+                    }
+                ]
+
+            }
+
+        },
+
+        "consulting" : {
+          
+            "heading"       : "consulting",
+            "subheading"    : "starting at $2000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Selling Partner Strategy",
+                            "Scalability",
+                            "Growth Hacking",
+                            "Amazon FBA",
+                            "Social Media Strategy",
+                            "Click Funnels",
+                            "AB Testing"
+                        ]
+
+                    }
+                ]
+
+            }
+
+        },
+
+        "small" : {
+          
+            "heading"       : "small business app",
+            "subheading"    : "starting at $2049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "Industries we service",
+                        "list"      : [
+                            "Restaurants",
+                            "Community",
+                            "Real Estate",
+                            "Schools",
+                            "Health & Beauty",
+                            "Music"
+                        ]
+
+                    }
+                ]
+
+            }
+
+        },
+
+        "uber" : {
+          
+            "heading"       : "the uber of x app",
+            "subheading"    : "starting at $15000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Real time GPS Technology",
+                            "Ability to see vehicles",
+                            "Secure Payments",
+                            "Ability to sell products and services",
+                            "Beautiful Design",
+                            "Flawless functionality"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "Uber for X categories",
+                        "list"      :[
+                            "Uber for X",
+                            "Counter Delivery App",
+                            "On-Demand Laundrey App",
+                            "On-Demand Mechanic App",
+                            "On-Demand Massage App",
+                            "On-Demand Beauty Service App",
+                            "On-Deman Handyman App",
+                            "On-Demand Flower Deliver App",
+                            "On-Demand Tutoring App",
+                            "On-Demand Plumber Service App",
+                            "Packers and Movers App",
+                            "Alcohol Delivery App",
+                            "On-Demand Babysitter App",
+                            "On-Demand Tow Trucks App",
+                            "On-Demand Marijuana Delivery App"
+                        ]
+
+                    }
+                ]
+
+            }
+
+        },
+
+        "custom" : {
+          
+            "heading"       : "custom app",
+            "subheading"    : "starting at $25000",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Beautifully Design",
+                            "30-60 day turn around",
+                            "Scalable",
+                            "Support",
+                            "Deshboard",
+                            "Analytics",
+                            "Training and implementation",
+                            "Secure",
+                            "Easy to use",
+                            "We do everything"
+                        ]
+
+                    }
+                ]
+
+            }        
+
+        },
+
+        "website-redesign" : {
+
+            "heading"       : "website redesign or duplicate",
+            "subheading"    : "starting at $1449",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Shopify",
+                            "Wordpress",
+                            "WOO Commerce",
+                            "Beautifully Design",
+                            "30 day turn around",
+                            "Scalable",
+                            "Dashboard",
+                            "Analytics",
+                            "Training and implementation",
+                            "Secure",
+                            "Easy to use",
+                            "We do everything",
+                            "Website Audit",
+                            "Built for conversions",
+                            "Mobile Optimized",
+                            "Logo Revamp",
+                            "Sales funnel optimization"
+                        ]
+
+                    }
+                ]
+
+            }    
+
+        },
+
+        "website-marketing" : {
+
+            "heading"       : "website  & marketing",
+            "subheading"    : "starting at $4049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Shopify",
+                            "Wordpress",
+                            "WOO Commerce",
+                            "Beautifully Design",
+                            "30 day turn around",
+                            "Scalable",
+                            "Dashboard",
+                            "Analytics",
+                            "Training and implementation",
+                            "Secure",
+                            "Easy to use",
+                            "We do everything",
+                            "Facebook Build Out",
+                            "Facebook Ad Design",
+                            "Instagram Build Out",
+                            "Instagram Ad Design",
+                            "Twitter and TikTok campaigns",
+                            "Linked in campaigns",
+                            "Analytics",
+                            "Lookalike audiences",
+                            "Retargeting ads",
+                            "Technology driven smart ads",
+                            "Laser focused targeting"
+                        ]
+
+                    }
+                ]
+
+            }    
+
+        },
+
+        "website-branding" : {
+
+            "heading"       : "website & marketing",
+            "subheading"    : "starting at $4049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Shopify",
+                            "Wordpress",
+                            "WOO Commerce",
+                            "Beautifully Design",
+                            "30 day turn around",
+                            "Scalable",
+                            "Dashboard",
+                            "Analytics",
+                            "Training and implementation",
+                            "Secure",
+                            "Easy to use",
+                            "We do everything",
+                            "Facebook Build Out",
+                            "Facebook Ad Design",
+                            "Instagram Build Out",
+                            "Instagram Ad Design",
+                            "Twitter and TikTok campaigns",
+                            "Linked in campaigns",
+                            "Lookalike audiences",
+                            "Retargeting ads",
+                            "Technology driven smart ads",
+                            "Laser focused targeting",
+                            "Email drip sequence",
+                            "Beautifully designed automated emails",
+                            "Blog Posts",
+                            "Website Content",
+                            "Social Media Content",
+                            "SEO",
+                            "Press Releases"
+                        ]
+
+                    }
+                ]
+
+            }    
+
+        },
+
+        "digital-brand"     : {
+
+            "heading"       : "digital brand",
+            "subheading"    : "starting at $1049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Beautifully Designed Shopify Website",
+                            "400 USA Based Products Custom Niche",
+                            "Up to 2 Products Categories",
+                            "Business Facebook Setup",
+                            "Business Instagram Setup",
+                            "Business Twitter Setup",
+                            "Launch Coaching"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "add-ons",
+                        "list"      : [
+                            "Hands-Free Program",
+                            "White-Glove Program",
+                            "Coaching & Training"
+
+                        ]
+
+                    }
+                ]
+
+            } 
+
+        },
+
+        "digital-equity"    : {
+
+            "heading"       : "digital equity",
+            "subheading"    : "starting at $3449",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Beautifully Designed Shopify Website",
+                            "850 USA Based Products",
+                            "Custom Niche",
+                            "Up to 3 Product Categories",
+                            "Business Facebook Setup",
+                            "Business Instagram Setup",
+                            "Business Twitter Setup",
+                            "Press Release",
+                            "Launch Coaching",
+                            "60 Day Marketing Campaign",
+                            "Facebook In-story Ads",
+                            "Instagram In-story Ads",
+                            "Guaranteed 25,000 Views"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "add-ons",
+                        "list"      : [
+                            "Hands-Free Program",
+                            "White-Glove Program",
+                            "Coaching & Training"
+
+                        ]
+
+                    }
+                ]
+
+            } 
+
+        },
+
+        "digital-asset"    : {
+
+            "heading"       : "digital aseet",
+            "subheading"    : "starting at $8049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "Beautifully Designed Shopify Website",
+                            "1500 USA Based Products",
+                            "Custom Niche",
+                            "Up to 5 Product Categories",
+                            "Business Facebook Setup",
+                            "Business Instagram Setup",
+                            "Business TikTok Setup",
+                            "Business LinkedIn Setup",
+                            "Premium Press Release",
+                            "Launch Coaching",
+                            "90 Day Marketing Campaign",
+                            "Facebook In-story Ads",
+                            "Facebook Swipe Ads",
+                            "Instagram In-story Ads",
+                            "Instagram Swipe-up Ads",
+                            "Guaranteed 50,000 Views",
+                            "Help with Entity Setup"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "add-ons",
+                        "list"      : [
+                            "Hands-Free Program",
+                            "White-Glove Program",
+                            "Coaching & Training",
+                            "Business Plan",
+                            "Corporate Credit Plan"
+
+                        ]
+
+                    }
+                ]
+
+            } 
+
+        },
+
+        "marketing-growth"  : {
+
+            "heading"       : "growth marketing",
+            "subheading"    : "starting at $1449",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "30-day Plan",
+                            "Guaranteed 5,000 Views"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "facebook",
+                        "list"      : [
+
+                            "Business Facebook Setup",
+                            "Hero Image Revamp",
+                            "4 Visually Stunning Ads",
+                            "4 Compelling Captions"
+
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "instagram",
+                        "list"      : [
+                            "Business Instagram Setup",
+                            "Profile Image Revamp",
+                            "4 Visually Stunning Ads",
+                            "4 Complelling Captions",
+                            "In-story Ads"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"   : "google ppc",
+                        "list"      : [
+                            "10 Google Keywords"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "bing ppc",
+                        "list"      : [
+                            "10 Bing Keywords"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "google business",
+                        "list"      : [
+                            "1 What's New Posts"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "add-ons",
+                        "list"      : [
+                            "Coaching & Training"
+                        ]
+
+                    }
+                ]
+
+            } 
+
+        },
+
+        "marketing-viral"   : {
+
+            "heading"       : "viral marketing",
+            "subheading"    : "starting at $6449",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "60-day Plan",
+                            "Guaranteed 50,000 Views"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "facebook",
+                        "list"      : [
+
+                            "Business Facebook Setup",
+                            "Hero Image Revamp",
+                            "8 Visually Stunning Ads",
+                            "8 Compelling Captions",
+                            "In-story Ads",
+                            "Swipe-up Ads"
+
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "instagram",
+                        "list"      : [
+                            "Business Instagram Setup",
+                            "Profile Image Revamp",
+                            "8 Visually Stunning Ads",
+                            "8 Complelling Captions",
+                            "In-story Ads",
+                            "Swipe-up Ads"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"   : "google ppc",
+                        "list"      : [
+                            "50 Google Keywords"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "bing ppc",
+                        "list"      : [
+                            "50 Bing Keywords"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "google business",
+                        "list"      : [
+                            "3 What's New Posts",
+                            "3 Offer Posts",
+                            "3 Product Posts",
+                            "12 Image Uploads"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "twitter",
+                        "list"      : [
+                            "Business Twitter Setup"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"      : "linkedin",
+                        "list"         : [
+                            "Business Linkedin Setup"
+                        ]
+
+                    },
+
+                    {
+
+
+                        "heading"       : "content",
+                        "list"          : [ 
+                            "1 Press Release"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"       : "automation",
+                        "list"          : [
+                            "HootSuite Automation Setup"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"       : "add-ons",
+                        "list"          : [
+                            "Hands-Free Program",
+                            "White-Glove Program",
+                            "Coaching & Training"
+                        ]
+
+                    }
+
+
+
+                ]
+
+            } 
+
+        },
+
+        "marketing-superbowl"   : {
+
+            "heading"       : "superbowl marketing",
+            "subheading"    : "starting at $14049",
+            "features"      : {
+
+                "lists"   : [
+
+                    {
+                        "heading"   : "",
+                        "list"      : [
+                            "90-day Plan",
+                            "Guaranteed 100,000 Views"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "facebook",
+                        "list"      : [
+
+                            "Business Facebook Setup",
+                            "Hero Image Revamp",
+                            "20 Visually Stunning Ads",
+                            "20 Compelling Captions",
+                            "In-story Ads",
+                            "Swipe-up Ads",
+                            "Retargeting"
+
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "instagram",
+                        "list"      : [
+                            "Business Instagram Setup",
+                            "Profile Image Revamp",
+                            "20 Visually Stunning Ads",
+                            "20 Complelling Captions",
+                            "In-story Ads",
+                            "Swipe-up Ads",
+                            "Retargeting",
+                            "Hashtag Strategy"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"   : "google ppc",
+                        "list"      : [
+                            "100 Google Keywords",
+                            "Google Retargeting"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "bing ppc",
+                        "list"      : [
+                            "100 Bing Keywords"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "google business",
+                        "list"      : [
+                            "8 What's New Posts",
+                            "8 Offer Posts",
+                            "8 Product Posts",
+                            "24 Image Uploads"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "twitter",
+                        "list"      : [
+                            "Business Twitter Setup"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"      : "linkedin",
+                        "list"         : [
+                            "Business Linkedin Setup"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"   : "youtube",
+                        "list"      : [
+                            "Business Page Setup",
+                            "Retrageting Setup"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"      : "tiktok",
+                        "list"         : [
+                            "TikTok Setup",
+                            "Strategy Consultation",
+                            "1 TikTok Ad"
+                        ]
+
+                    },
+
+                    {
+
+
+                        "heading"       : "content",
+                        "list"          : [ 
+                            "2 Premium Press Release",
+                            "Email Marketing Set-up",
+                            "5 Content Emails"
+                        ]
+
+                    },
+
+                    {
+
+                        "heading"       : "automation",
+                        "list"          : [
+                            "HootSuite Automation Setup",
+                            "Livechat Bot Setup",
+                            "Email Marketing Automation"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"       : "analytics",
+                        "list"          : [
+                            "Analytic Setup And Review"
+                        ]
+
+
+                    },
+
+                    {
+
+                        "heading"       : "banner ads",
+                        "list"          : [
+                            "4 Beautiful Banner Ads"
+                        ]
+
+
+                    },
+
+
+                    {
+
+                        "heading"       : "snapchat filter",
+                        "list"          : [
+                            "1 Snapchat Filter Creation"
+                        ]
+
+
+                    },
+
+
+                    {
+
+                        "heading"       : "add-ons",
+                        "list"          : [
+                            "Hands-Free Program",
+                            "White-Glove Program",
+                            "Coaching & Training",
+                            "Business Plan",
+                            "Corporate Credit Plan",
+                            "Emoji Ads",
+                            "Stunning Video Commerical",
+                            "Green Screen Videos",
+                            "Viral Video Creation"
+                        ]
+
+                    }
+
+
+
+                ]
+
+            } 
+
+        }
+        
+    },
+
+    "pages" : {
+
+        "home" : [ "web", "marketing", "ecommerce", "app", "brand", "consulting" ],
+        "app-development" : [ "small", "uber", "custom" ],
+        "web-design-development" : [ "website-redesign", "website-marketing", "website-branding" ],
+        "brand-growth" : [],
+        "lead-generation": [],
+        "marketing" : [ "marketing-growth", "marketing-viral", "marketing-superbowl" ],
+        "turnkey-shopify" : [ "digital-brand", "digital-equity", "digital-asset" ],
+        "consulting" : []
+    
+    },
+
+    "intro" : {
+
+        "home" : {
+
+            "header-main" : "COMPREHENSIVE CAPABILITIES",
+            "header-sub"  : "check out all our team can offer you!",
+            "header-text" : "This portfolio of services is a testament to our success as premium digital storytellers and design enthusiasts"
+
+
+        },
+        "app-development" : {
+            "header-main" : "PREMIUM APP DEVELOPMENT",
+            "header-sub"  : "",
+            "header-text" : "Our team has built over 300 Apps that have a collective valuation over $1,000,000,000 USD"
+        },
+        "web-design-development" : {
+            "header-main" : "SUPERIOR WEBSITE PACKAGES",
+            "header-sub"  : "",
+            "header-text" : "Working with DigitalBrands you are receiving a collective of brilliant visionaries that have extensive experience in creating and launching websites that perform and scale."
+        },
+        "marketing" : {
+            "header-main" : "VIRAL CAMPAIGN PACKAGES",
+            "header-sub"  : "",
+            "header-text" : "Our team and affiliates at DigitalBrands have built some of the most successful campaigns in the digital space. We have created the digital footprint for many Fortune 500 companies and have brought to life hundreds of startup companies."
+        },
+        "turnkey-shopify" : {
+            "header-main" : "SHOPIFY PARTNER PACKAGES",
+            "header-sub"  : "",
+            "header-text" : "Our eCommerce department is strategically made up of designers, marketers, content creators, and analytics experts taking their experience and passion to guide you to success in the ecommerce space."
+        }
+
+    }
+
+}
