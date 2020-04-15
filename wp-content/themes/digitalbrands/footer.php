@@ -12,11 +12,11 @@
 
 						<ul class="mobile-nav-items row">
 
-							<li class="col-4"><a href="#"><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULT</h6></a></li>
+							<li class="col-4 capslock"><a href="https://go.thryv.com/widgets/scheduler/a6h9sm0rzt5pclen?frontage_iframe=true" target="_blank"  ><i class="fas fa-calendar-alt"></i><br><h6>FREE CONSULT</h6></a></li>
 
-							<li class="col-4"><a href="#"><i class="fas fa-phone"></i><br><h6>TOLL FREE</h6></a></li>
+							<li class="col-4 capslock"><a href="tel:1-800-775-2049"><i class="fas fa-phone"></i><br><h6>TOLL FREE</h6></a></li>
 
-							<li class="col-4"><a href="#"><i class="fas fa-bars js-menu-toggle"></i><br><h6>MENU</h6></a></li>
+							<li class="col-4 capslock"><a href="#"><i class="fas fa-bars js-menu-toggle"></i><br><h6>MENU</h6></a></li>
 
 						</ul>
 

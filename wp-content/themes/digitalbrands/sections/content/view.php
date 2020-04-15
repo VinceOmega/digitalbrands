@@ -1,25 +1,25 @@
 <?php
 
     $pageInfo = get_page( get_the_ID() );
-    $heading = array(
 
-        'app-development'           => "take your business or idea to the next level",
-        'web-design-development'    => "technology aligned and beautifully designed",
-        'turnkey-shopify'           => "our proven turnkey shopify packages focus on growth and sustainability",
-        'marketing'                 => "build your brand"
-
-    );
+    $file   = file_get_contents( get_template_directory()."/sections/content/config.json" );
+    $json   = json_decode( $file );
 
     $pages = file_get_contents( get_template_directory()."/heros/config.json" );
     $pagesJsonData = json_decode( $pages );
-    if( !empty( $pagesJsonData->pages->{ $pageInfo->post_name } ) && !is_null(  $pagesJsonData->pages->{ $pageInfo->post_name }  ) ){
 
-        $headingText = $header[ $pagesJsonData->pages->{ $pageInfo->post_name } ];
+    if( !is_null(  $pagesJsonData->pages->{ $pageInfo->post_name } )  && !empty( $pagesJsonData->pages->{ $pageInfo->post_name } ) ){
+
+        $headingText = $json->pages->{ $pageInfo->post_name };
 
     }
 
 ?>
 
-<h3 class="capslock"><?php echo $headingText ; ?></h3>
-<?php the_content(); ?>
-<a href="#" target="_blank" class="btn btn-gradient-blue-purple capslock">get your free consultation!</a>
+<div class="content container-fluid <?php echo $pageInfo->post_name ?>">
+    <h3 class="capslock content-header"><?php echo $headingText; ?></h3>
+    <div class="content-text">
+        <?php echo $pageInfo->post_content; ?>
+    </div>
+    <a href="https://go.thryv.com/widgets/scheduler/a6h9sm0rzt5pclen?frontage_iframe=true" target="_blank" class="btn btn-gradient-blue-purple capslock">get your free consultation!</a>
+</div>

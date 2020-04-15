@@ -38,6 +38,10 @@ html > body {
   height: 99.9999999999999%;
 }
 
+html a:visited{
+	color: white;
+}
+
 .wt-300{
 	font-weight: 300;
 }
@@ -1230,6 +1234,10 @@ nav.navbar.navbar-mobile:hover{
 	.showcase .container .row,
 	.showcase .container .showcase-item{
 		flex-direction: column;
+	}
+
+	.content.container-fluid{
+		padding: 20px 65px;
 	}
 
 }
