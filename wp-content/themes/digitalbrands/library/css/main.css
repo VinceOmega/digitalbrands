@@ -1072,6 +1072,7 @@ nav.navbar.navbar-mobile:hover{
 		position: fixed;
 		bottom: 0;
 		background: #086AF3;
+		color: white;
 	}
 
 	html.iphone footer.footer .mobile-nav{
