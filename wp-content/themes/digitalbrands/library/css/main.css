@@ -228,12 +228,20 @@ html.iphone .w3-card .list{
 	opacity: 0;
 }
 
-.w3-card .right-btn .btn.btn-primary:nth-of-type(2){
+.w3-card a.btn.btn-primary{
+	max-height: 35px;
+    line-height: 6px;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.w3-card .right-btn button.btn.btn-primary{
 	background: #FFB100 !important;
 }
 
-.w3-card .right-btn .btn.btn-primary:nth-of-type(2):hover,
-.w3-card .right-btn .btn.btn-primary:nth-of-type(2):active{
+.w3-card .right-btn button.btn.btn-primary:hover,
+.w3-card .right-btn button.btn.btn-primary:active{
 	background: #FFB100 !important;
 }
 

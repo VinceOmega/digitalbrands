@@ -1,0 +1,116 @@
+{
+
+    "pages" : {
+
+        "home" : [ "web", "marketing", "ecommerce", "app", "brand", "consulting" ],
+        "app-development" : [ "small", "uber", "custom" ],
+        "web-design-development" : [ "website-redesign", "website-marketing", "website-branding" ],
+        "brand-growth" : [],
+        "lead-generation": [],
+        "marketing" : [ "marketing-growth", "marketing-viral", "marketing-superbowl" ],
+        "turnkey-shopify" : [ "digital-brand", "digital-equity", "digital-asset" ],
+        "consulting" : []
+    
+
+    },
+
+
+    "work" :{
+
+
+            "superphone" : {
+
+                "name"  : "Superphone logo",
+                "img"   : "",
+                "href"  : "https://apps.apple.com/us/app/superphone/id1144753815"
+
+            },
+
+            "bpm-supreme" : {
+
+                "name"  :  "BPM Supreme logo",
+                "img"   :   "",
+                "href"  :   "https://apps.apple.com/us/app/bpm-supreme/id1435624754"
+
+            },
+
+            "dash-radio" : {
+
+                "name"  :   "Dash Radio logo",
+                "img"   :   "",
+                "href"  :   "https://apps.apple.com/us/app/dash-radio/id907383542"
+
+            },
+
+            "formlabs"  : {
+
+                "name"  : "Form Labs logo",
+                "img"   : "",
+                "href"  : "https://formlabs.com/"
+
+            },
+
+            "negative"  : {
+
+                "name"  : "Negative Logo",
+                "img"   : "",
+                "href"  : "https://negativeunderwear.com/"
+
+            },
+
+            "wayfinder" : {
+
+                "name"  : "Wayfinder Logo",
+                "img"   : "",
+                "href"  : "https://www.wayfinder.beer/"
+
+            },
+
+            "kkw"       : {
+
+                "name"  : "KKW Logo",
+                "img"   : "",
+                "href"  : "https://kkwbeauty.com"
+
+            },
+
+            "hex"       : {
+
+                "name"  : "Hex Logo",
+                "img"   : "",
+                "href"  : "https://www.hexbrand.com"
+
+            },
+
+            "thano-tech" : {
+
+                "name"  : "Thano Tech Logo",
+                "img"   : "",
+                "href"  : "https://www.thanotech.com"
+
+            },
+
+            "jitney-surfer" : {
+
+                "name"  : "Jitney Surfer Logo",
+                "img"   : "",
+                "href"  : "https://apps.apple.com/us/app/jitney-surfer/id1384612035"
+
+
+            },
+
+            "Jolnr"         : {
+
+                "name"  : "Jolnr",
+                "img"   : "",
+                "href"  : ""
+
+            }
+
+
+
+
+
+    }
+
+}

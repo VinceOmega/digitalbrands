@@ -38,6 +38,7 @@
                     <?php foreach( $packagesArray as $package ){ ?>
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="w3-card">
+                                
                                 <div class="w3-panel">
                                     <div class="w3-overlay"></div>
                                     <h4 style="margin-bottom: 0px;"><span class="eve capslock"><?php echo $json->packages->{ $package }->heading; ?></span></h4>
@@ -51,12 +52,14 @@
                                                 <li><?php echo $listItem; ?></li>
                                             <?php } ?>
                                         <?php } ?>
-                                    </ul>			
+                                    </ul>
                                 </div>
+
                                 <div class="right-btn">
                                     <a href="https://go.thryv.com/widgets/scheduler/a6h9sm0rzt5pclen?frontage_iframe=true" target="_blank" class="btn btn-primary btn-lead">Free Consultation</a>
                                     <button id="" class="btn btn-primary btn-toggle">+</button>
-                                </div>
+                                </div>			
+
                             </div>
                         </div>
                     <?php } ?>
