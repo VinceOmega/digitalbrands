@@ -461,6 +461,20 @@ html.iphone nav.navbar-mobile p#logo{
 	
 }
 
+/*forbes special*/
+.features-icons div.container div.features-icons-item div.features-icons-icon ul li img.forbes{
+	width: 78px;
+	max-height: 999px;
+	height: 25px;	
+}
+
+/*people special*/
+.features-icons div.container div.features-icons-item div.features-icons-icon ul li img.people{
+	width: 65px;
+	max-height: 999px;
+	height: 20px;	
+}
+
 .features-icons-item .features-icons-icon ul li{
 	display: inline-block;
 }
