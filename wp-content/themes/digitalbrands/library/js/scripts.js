@@ -112,7 +112,6 @@ function loadGravatars() {
     $( ".js-menu-toggle" ).click( function(){
       console.log( 'clicked' );
         $( ".menu-nav-display" ).toggleClass( 'show' );
-        $( this ).text() === '+' ? $( this ).text('-') :  $( this ).text('+');
     });
 
   }
@@ -125,6 +124,7 @@ function featureControls(){
 
     $(this).parents( '.w3-card' ).find('.w3-overlay').toggleClass( 'show' );
     $(this).parents( '.w3-card' ).find('ul.list').toggleClass( 'list-partial' );
+    $( this ).text() === '+' ? $( this ).text('-').toggleClass( 'minus' ) :  $( this ).text('+').toggleClass( 'minus' );
 
   });
 }

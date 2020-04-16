@@ -236,6 +236,12 @@ html.iphone .w3-card .list{
     text-align: center;
 }
 
+.w3-card .btn.btn-toggle.minus{
+	font-size: 4rem;
+    padding-bottom: 22px;
+    padding-right: 36px;
+}
+
 .w3-card .right-btn button.btn.btn-primary{
 	background: #FFB100 !important;
 }
