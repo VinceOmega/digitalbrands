@@ -1029,6 +1029,11 @@ nav.navbar.navbar-mobile:hover{
 		padding: 1rem 2rem;
 	}
 
+	footer.footer{
+		background-color: white;
+		color: black;
+	}
+
 	footer.footer .mobile-nav{
 		width: -webkit-fill-available;
 		width: -moz-available;
