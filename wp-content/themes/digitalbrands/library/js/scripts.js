@@ -124,7 +124,10 @@ function featureControls(){
 
     $(this).parents( '.w3-card' ).find('.w3-overlay').toggleClass( 'show' );
     $(this).parents( '.w3-card' ).find('ul.list').toggleClass( 'list-partial' );
-    $( this ).text() === '+' ? $( this ).text('-').toggleClass( 'minus' ) :  $( this ).text('+').toggleClass( 'minus' );
+    if( $(this).parents( '.w3-card' ).length ){
+      $( this ).text() === '+' ? $( this ).text('-').toggleClass( 'minus' ) :  $( this ).text('+').toggleClass( 'minus' );
+    }
+    
 
   });
 }
