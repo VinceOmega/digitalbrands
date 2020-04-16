@@ -1111,7 +1111,7 @@ nav.navbar.navbar-mobile:hover{
 		display: block;
 		position: fixed;
 		bottom: 0;
-		background-color: blue;
+		background-color: #5591E5;
 		height: 0%;
 		width: -webkit-fill-available;
 		width: -moz-available;
@@ -1238,6 +1238,12 @@ nav.navbar.navbar-mobile:hover{
 
 	.content.container-fluid{
 		padding: 20px 65px;
+	}
+
+	.content.container-fluid h3{
+		text-align: center;
+		color: #086Af3;
+		font-size: 30px;
 	}
 
 }

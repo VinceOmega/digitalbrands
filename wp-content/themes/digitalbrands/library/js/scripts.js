@@ -112,6 +112,7 @@ function loadGravatars() {
     $( ".js-menu-toggle" ).click( function(){
       console.log( 'clicked' );
         $( ".menu-nav-display" ).toggleClass( 'show' );
+        $( this ).text() === '+' ? $( this ).text('-') :  $( this ).text('+');
     });
 
   }
