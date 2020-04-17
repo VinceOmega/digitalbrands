@@ -20,7 +20,7 @@
 
 	<div class="row">
 
-	<?php if( $_SERVER[ 'HTTP_HOST' ]  === 'dg.local'){ ?>
+	<?php if( $_SERVER[ 'HTTP_HOST' ]  != 'dg.local'){ ?>
 
 			<div class="col-12">
 				<?php echo do_shortcode( '[testimonial_view id='.$template.']' ) ?>
