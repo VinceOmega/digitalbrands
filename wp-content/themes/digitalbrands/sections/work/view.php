@@ -20,7 +20,7 @@
 					</section>
 					<section class="col-3 column" >
 						<img src="<?php echo get_template_directory_uri();?>/library/images/work/negative.png">
-						<img src="<?php echo get_template_directory_uri();?>/library/images/work/kkw.png">
+						<img src="<?php echo get_template_directory_uri();?>/library/images/work/wayfinder.png">
 					</section>
 				</div>
 			</div>
