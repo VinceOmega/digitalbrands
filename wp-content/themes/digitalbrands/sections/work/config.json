@@ -2,16 +2,39 @@
 
     "pages" : {
 
-        "home" : [ "web", "marketing", "ecommerce", "app", "brand", "consulting" ],
-        "app-development" : [ "small", "uber", "custom" ],
-        "web-design-development" : [ "website-redesign", "website-marketing", "website-branding" ],
+        "home" : [ 
+            [ 
+                [ [ "superphone", { "superphone" : "img" } ], [ "bpm-supreme", { "bpm-supreme" : "img" } ] ]
+                
+            ], 
+            [
+                [ [ "dash-radio" , { "dash-radio" : "img" } ] ]
+
+            ],
+            [ [ [ "formlabs", { "formlabs" : "img" } ] ], [ [ "negative", { "negative" : "img" } ], [ "wayfinder", { "wayfinder" : "img" } ] ]  ], 
+            [ [ [ "hex", { "hex" : "img" } ] ], [ [ "thano-tech", { "thano-tech" : "img" } ] ] ]
+        ],
+        "app-development" : [
+            [ [ [ "superphone", { "superphone" : "img" } ], [ "bpm-supreme", { "bpm-supreme" : "img" } ] ], [ [ "dash-radio" , { "dash-radio" : "img" } ] ] ], 
+            [ [ [ "jitney-surfer", { "jitney-surfer" : "img" } ], [ "jolnr", { "jolnr" : "img" } ] ] ]   
+        ], 
+        "web-design-development" : [ 
+            [ [ [ "manestreem", { "manestreem" : "img" } ] ], [ [ "bpm-latino", { "bpm-latino" : "img" } ] ] ], 
+            [ [ [ "cocoon-cam", { "cocoon-cam" : "img" } ], [ "frenchie-bulldog", { "frenchie-bulldog" : "img" } ] ] ], 
+            [ [ [ "formlabs", { "formlabs" : "img" } ] ], [ [ "negative", { "negative" : "img" } ], [ "kkw", { "kkw" : "img-alt" } ] ] ], 
+            [ [ [ "hex", { "hex" : "img-alt" } ] ], [ [ "wayfinder", { "wayfinder" : "img" } ], [ "cyclo", { "cyclo" : "img" } ] ] ]
+        ],
         "brand-growth" : [],
         "lead-generation": [],
-        "marketing" : [ "marketing-growth", "marketing-viral", "marketing-superbowl" ],
-        "turnkey-shopify" : [ "digital-brand", "digital-equity", "digital-asset" ],
+        "marketing" : [],
+        "turnkey-shopify" : [ 
+            [ [ [ "negative", { "negative" : "img-alt" } ], [ "health-glamour", { "health-glamour" : "img" } ] ] ], 
+            [ [ [ "pawkee", { "pawkee" : "img" } ], [ "cocoon-cam", { "cocoon-cam" : "img" } ] ] ], 
+            [ [ [ "stivali", { "stivali" : "img" } ], [ "frenchie-bulldog", { "frenchie-bulldog" : "img" } ] ] ], 
+            [ [ [ "hex", { "hex" : "img-alt" } ], [ "kkw", { "kkw" : "img-alt2" } ] ] ], 
+            [ [ [ "active-ride", { "active-ride" : "img" } ] ], [ [ "distil-union", { "distil-union" : "img" } ], [ "thano-tech", { "thano-tech" : "img" } ] ] ]
+        ],
         "consulting" : []
-    
-
     },
 
 
@@ -21,95 +44,210 @@
             "superphone" : {
 
                 "name"  : "Superphone logo",
-                "img"   : "",
-                "href"  : "https://apps.apple.com/us/app/superphone/id1144753815"
+                "img"   : "superphone.png",
+                "href"  : "https://apps.apple.com/us/app/superphone/id1144753815",
+                "class" : "superphone"
 
             },
 
             "bpm-supreme" : {
 
-                "name"  :  "BPM Supreme logo",
-                "img"   :   "",
-                "href"  :   "https://apps.apple.com/us/app/bpm-supreme/id1435624754"
+                "name"      :  "BPM Supreme logo",
+                "img"       :  "BPMSUPREME.png",
+                "img-alt"   :  "bpm-supreme.png",  
+                "href"      :  "https://apps.apple.com/us/app/bpm-supreme/id1435624754",
+                "class"     :  "bpm-supreme"
+
 
             },
 
             "dash-radio" : {
 
-                "name"  :   "Dash Radio logo",
-                "img"   :   "",
-                "href"  :   "https://apps.apple.com/us/app/dash-radio/id907383542"
+                "name"      :   "Dash Radio logo",
+                "img"       :   "dash.png",
+                "img-alt"   :   "dash-alt.png",
+                "href"      :   "https://apps.apple.com/us/app/dash-radio/id907383542",
+                "class"     :   "dash"
+
 
             },
 
             "formlabs"  : {
 
                 "name"  : "Form Labs logo",
-                "img"   : "",
-                "href"  : "https://formlabs.com/"
+                "img"   : "formlabs.png",
+                "href"  : "https://formlabs.com/",
+                "class" : "formlabs"
+
 
             },
 
             "negative"  : {
 
-                "name"  : "Negative Logo",
-                "img"   : "",
-                "href"  : "https://negativeunderwear.com/"
+                "name"      : "Negative Logo",
+                "img"       : "negative.png",
+                "img-alt"   : "negative-alt.png",
+                "href"      : "https://negativeunderwear.com/",
+                "class"     : "negative"
+
 
             },
 
             "wayfinder" : {
 
                 "name"  : "Wayfinder Logo",
-                "img"   : "",
-                "href"  : "https://www.wayfinder.beer/"
+                "img"   : "wayfinder.png",
+                "href"  : "https://www.wayfinder.beer/",
+                "class" : "wayfinder"
+
 
             },
 
             "kkw"       : {
 
-                "name"  : "KKW Logo",
-                "img"   : "",
-                "href"  : "https://kkwbeauty.com"
+                "name"      : "KKW Logo",
+                "img"       : "kkw.png",
+                "img-alt"   : "kkw-alt.png",
+                "img-alt2"  : "kkw-alt2.png",
+                "href"      : "https://kkwbeauty.com",
+                "class"     : "kkw"
+
 
             },
 
             "hex"       : {
 
-                "name"  : "Hex Logo",
-                "img"   : "",
-                "href"  : "https://www.hexbrand.com"
+                "name"      : "Hex Logo",
+                "img"       : "hex.png",
+                "img-alt"   : "hex-alt.png",
+                "href"      : "https://www.hexbrand.com",
+                "class"     : "hex"
+
 
             },
 
             "thano-tech" : {
 
                 "name"  : "Thano Tech Logo",
-                "img"   : "",
-                "href"  : "https://www.thanotech.com"
+                "img"   : "thanotech.png",
+                "href"  : "https://www.thanotech.com",
+                "class" : "thano"
+
 
             },
 
             "jitney-surfer" : {
 
-                "name"  : "Jitney Surfer Logo",
-                "img"   : "",
-                "href"  : "https://apps.apple.com/us/app/jitney-surfer/id1384612035"
+                "name"      : "Jitney Surfer Logo",
+                "img"       : "jitney.png",
+                "img-alt"   : "jitney-alt.png",
+                "href"      : "https://apps.apple.com/us/app/jitney-surfer/id1384612035",
+                "class"     : "jitney"
+
 
 
             },
 
-            "Jolnr"         : {
+            "jolnr"         : {
 
                 "name"  : "Jolnr",
-                "img"   : "",
-                "href"  : ""
+                "img"   : "jolnr.png",
+                "href"  : "https://apps.apple.com/us/app/joinr/id926131432",
+                "class" : "jolnr"
+
+
+            },
+
+            "manestreem"    : {
+
+                "name"  :   "Manestreem",
+                "img"   :   "manestreem.png",
+                "href"  :   "http://www.manestreem.com/",
+                "class" :   "manestreem"
+
+            },
+
+            "bpm-latino"    : {
+
+                "name"  :   "BPM Latino",
+                "img"   :   "bpm-latino.png",
+                "href"  :   "https://bpmlatino.com/",
+                "class" :   "bpm-latino"
+
+            },
+
+            "cocoon-cam"    : {
+
+                "name"  :   "Cocoon Cam",
+                "img"   :   "cocoon-cam.png",
+                "href"  :   "https://cocooncam.com",
+                "class" :   "cocoon-cam"
+
+            },
+
+            "frenchie-bulldog" : {
+
+                "name"  :   "Frenchie Bulldog",
+                "img"   :   "frenchie-bulldog.png",
+                "href"  :   "https://frenchiebulldog.com/",
+                "class" :   "frenchie-bulldog"
+
+            },
+
+            "cyclo"         : {
+
+                "name"      : "Cyclo",
+                "img"       : "cyclo.png",
+                "href"      : "https://www.gocylo.com",
+                "class"     : "cyclo"
+
+            },
+
+            "pawkee"        : {
+
+                "name"      : "Pawkee",
+                "img"       : "pawkee.png",
+                "href"      : "https://pawkee.com",
+                "class"     : "pawkee"
+
+            },
+
+            "stivali"       : {
+
+                "name"      : "Stivali",
+                "img"       : "stivali.png",
+                "href"      : "https://stivali.pt/",
+                "class"     : "stivali"
+
+            },
+
+            "active-ride"   : {
+
+                "name"      : "Active Ride",
+                "img"       : "active-ride.png",
+                "href"      : "https://www.activerideshop.com/",
+                "class"     : "active-ride"
+
+            },
+
+            "health-glamour" : {
+
+                "name"      : "Health & Glamour",
+                "img"       : "health-glamour.png",
+                "img-alt"   : "health-galmour-alt.png",
+                "href"      : "https://www.healthandglamourstore.com/",
+                "class"     : "health-glamour"
+
+            },
+
+            "distil-union"   : {
+
+                "name"      : "Distil Union",
+                "img"       : "distil.png",
+                "href"      : "https://distilunion.com",
+                "class"     : "distil-union"
 
             }
-
-
-
-
 
     }
 

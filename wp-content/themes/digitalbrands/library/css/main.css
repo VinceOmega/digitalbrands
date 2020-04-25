@@ -42,6 +42,15 @@ html a:visited{
 	color: white;
 }
 
+.btn.btn-gradient-blue-purple{
+	color: white;
+}
+
+.showcase.rounded-black .hero-header-first,
+.showcase.rounded-black .hero-header-second{
+	color: white;
+}
+
 .wt-300{
 	font-weight: 300;
 }
@@ -499,7 +508,7 @@ html.iphone nav.navbar-mobile p#logo{
 .showcase .container .showcase-item .col-3 img{
 
 	margin: .2rem .2rem;
-	width: 146px;
+	width: 156px;
 }
 
 html.iphone .showcase .container .showcase-item .col-3 img{
@@ -511,7 +520,7 @@ html.iphone .showcase .container .showcase-item .col-3 img{
 .showcase .container .showcase-item .column{
 	display: flex;
 	flex-direction: column;
-	margin-right: 1rem;
+	margin: 0;
 
 }
 
@@ -996,6 +1005,12 @@ nav.navbar.navbar-mobile:hover{
 		height: auto;
 	}
 
+	.showcase.rounded-black{
+
+		padding-bottom: 30px;
+
+	}
+
 	.showcase > div.container-fluid > div.row{
 		width: 80%;
 		margin: 0 auto;
@@ -1034,12 +1049,22 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	.showcase .showcase-item img{
-		max-width: 300px;
+		height: auto;
+		width: -moz-available;          /* WebKit-based browsers will ignore this. */
+		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+		width: fill-available;
+		width: stretch;
+		width: 100%;
+		max-width: 320px;
 	}
 
 	html.iphone .showcase .showcase-item img{
-		max-width: 300px;
 		height: 160px;
+		width: -moz-available;          /* WebKit-based browsers will ignore this. */
+		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+		width: fill-available;
+		width: stretch;
+		width: 100%;
 	}
 
 
