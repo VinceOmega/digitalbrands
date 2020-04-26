@@ -453,7 +453,7 @@ html.iphone nav.navbar-mobile p#logo{
 
 .features-icons div.container div.features-icons-item div.features-icons-icon ul li img{
 	width: auto;
-	max-height: 32px;
+	max-height: 40px;
 	height: -moz-available;          /* WebKit-based browsers will ignore this. */
 	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 	height: fill-available;
