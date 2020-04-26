@@ -1068,7 +1068,7 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	html.iphone .showcase .showcase-item img{
-		min-height: 160px;
+		min-height: 80px;
 		width: -moz-available;          /* WebKit-based browsers will ignore this. */
 		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 		width: fill-available;
