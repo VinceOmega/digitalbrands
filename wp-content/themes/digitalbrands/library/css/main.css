@@ -542,7 +542,7 @@ header.header.masthead.header-mobile{
 
 html.iphone header.header.masthead.header-mobile{
 	background: url('../images/heros/mobile/home.png') no-repeat;
-    background-size: 55%;
+    background-size: 73%;
     background-position: 60% 100%;
 	min-height: 22rem;
 	max-height: 25rem;
@@ -636,7 +636,7 @@ html.iphone header.masthead.header-mobile.web .header-cta button{
 }
 
 html.iphone header.header-mobile .header-cta{
-	top: 80px;
+	top: 60%;
 }
 
 header.header.masthead.header-mobile.shopify{
@@ -892,7 +892,7 @@ nav.navbar.navbar-mobile p#logo {
 }
 
 header.header.header-mobile .hero-header{
-	margin-top: -20px;  
+	margin-top: -12%;  
 	margin-left: 0;
 }
 
