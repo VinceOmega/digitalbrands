@@ -16,7 +16,7 @@
 
 ?>
 
-<div class="container">
+<div class="testimonals container">
 
 	<div class="row">
 

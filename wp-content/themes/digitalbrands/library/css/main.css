@@ -51,6 +51,13 @@ html a:visited{
 	color: white;
 }
 
+.testimonals a,
+.testimonals a:visited,
+.testimonals a:active,
+.testimonals a:hover{
+	color: black;
+}
+
 .wt-300{
 	font-weight: 300;
 }
