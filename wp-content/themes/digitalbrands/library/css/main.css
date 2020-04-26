@@ -1306,7 +1306,11 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	.content.container-fluid{
-		padding: 20px 65px;
+		padding: 20px 20px;
+	}
+
+	.content.container-fluid a.btn{
+		display: block;
 	}
 
 	.content.container-fluid h3{
