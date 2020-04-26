@@ -93,7 +93,7 @@
 
 								<?php //var_dump( $workCollection->{ $entries[0] }->{ $entries[1]->{ $entries[0] } } ); die(); ?>
 
-								<img src="<?php echo get_template_directory_uri();?>/library/images/work/<?php echo $workCollection->{ $entries[0] }->{ $entries[1]->{ $entries[0] } } ;?>">
+								<a target="_blank" href="<?php echo $workCollection->{ $entries[0] }->href; ?>" class="<?php echo $workCollection->{ $entries[0] }->class; ?>"><img class="<?php echo $workCollection->{ $entries[0] }->class; ?>" src="<?php echo get_template_directory_uri();?>/library/images/work/<?php echo $workCollection->{ $entries[0] }->{ $entries[1]->{ $entries[0] } } ;?>"></a>
 
 							<?php } ?>
 
@@ -105,7 +105,7 @@
 
 								<section class="col-lg-6 col-sm-12 column">
 
-									<img src="<?php echo get_template_directory_uri();?>/library/images/work/<?php echo $workCollection->{ $entries[0] }->{ $entries[1]->{ $entries[0] } } ;?>">
+									<a target="_blank" href="<?php echo $workCollection->{ $entries[0] }->href; ?>" class="<?php echo $workCollection->{ $entries[0] }->class; ?>"><img class="<?php echo $workCollection->{ $entries[0] }->class; ?>" src="<?php echo get_template_directory_uri();?>/library/images/work/<?php echo $workCollection->{ $entries[0] }->{ $entries[1]->{ $entries[0] } } ;?>"></a>
 
 								</section>
 

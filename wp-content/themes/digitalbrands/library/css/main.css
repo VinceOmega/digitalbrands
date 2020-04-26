@@ -1059,12 +1059,13 @@ nav.navbar.navbar-mobile:hover{
 	}
 
 	html.iphone .showcase .showcase-item img{
-		height: 160px;
+		min-height: 160px;
 		width: -moz-available;          /* WebKit-based browsers will ignore this. */
 		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 		width: fill-available;
 		width: stretch;
 		width: 100%;
+		max-width: 300px;
 	}
 
 
