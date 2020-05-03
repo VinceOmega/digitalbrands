@@ -38,6 +38,10 @@ html > body {
   height: 99.9999999999999%;
 }
 
+html > body div > .d-md-flex{
+	display: none !important;
+}
+
 html a:visited{
 	color: white;
 }
@@ -271,8 +275,42 @@ html.iphone .w3-card .list{
   text-transform: uppercase;
 }
 
+
+
+[class*="highlight-gradient-"]{
+	color: transparent;
+    background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-moz-webkit-background-clip: text !important;
+	-o-webkit-background-clip: text !important;
+}
+
+[class*="fill-"]{
+	color: transparent;
+    background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-moz-webkit-background-clip: text !important;
+	-o-webkit-background-clip: text !important;
+}
+
+.fill-black{
+	color: black;
+}
+
 .highlight-blue{
-  color: #086AF3;
+	color: #086AF3;
+}
+
+.highlight-gold{
+	color: #F7B958;
+}
+
+.stroke-outline{
+	text-shadow: -1px -1px 0 rgba( 108,117,125, .4 ), 1px -1px 0 rgba( 108,117,125, .4 ), -1px 1px 0 rgba( 108,117,125, .4 ), 1px 1px 0 rgba( 108,117,125, .4 );
+}
+
+.highlight-gradient-blue-purple{
+	background: linear-gradient(156deg, rgba(28,182,227,1) 0%, rgba(133,18,199,1) 100%);
 }
 
 .highlight-bg-blue{
@@ -351,6 +389,11 @@ header.header-desktop .hero-header .hero-header-sub{
 
 }
 
+.app .row .hero-cta a[class*="btn-gradient-"]{
+	margin-top: 9%;
+
+}
+
 .hero-header div.hero-header-first{
 
   	/* font-size: 1.85rem; */
@@ -377,12 +420,90 @@ header.masthead {
   height: -webkit-fill-available;
   height: -moz-available;
   height: fill-available;
+  height: 100%;
   height: stretch;
   position: relative;
   background-color: #fff;
   background: url("../images/heros/desktop/home.png") no-repeat 76% 150%;
   background-size: auto;
 }
+
+header.masthead.app{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/app.png) no-repeat -220px 20%;
+    background-size: 120% 170%;
+}
+
+header.header-desktop.app .hero-header div.hero-header-first{
+	font-size: 6rem;
+}
+
+header.header-desktop.app .hero-header div.hero-header-sub{
+	font-size: 1.5rem;
+}
+
+header.masthead.shopify{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/shopify.png) no-repeat;
+    background-size: cover;
+}
+
+.shopify .row.row-hero-header{
+	margin-top: 5%;
+}
+
+header.header-desktop.shopify .hero-header div.hero-header-first{
+	font-size: 6rem;
+}
+
+header.header-desktop.shopify .hero-header div.hero-header-sub{
+	font-size: 1.5rem;
+}
+
+header.masthead.web{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/web.png) no-repeat;
+    background-size: cover;
+}
+
+.web .row.row-hero-header{
+	margin-top: 5%;
+}
+
+header.masthead.marketing {
+    display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/marketing.png) no-repeat 90% 60%;
+    background-size: 110%;
+}
+
 
 header.masthead .overlay {
   position: absolute;
@@ -1026,27 +1147,36 @@ nav.navbar.navbar-mobile:hover{
 }
 
   /* Tablet */
-@media (min-width: 501px and max-width: 768px ) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
+@media ( min-width: 768px ) and ( max-width: 1024px ) {
 
-  header.header.header-desktop{
-	  display: none !important;
-  }
+	html > body div > .d-lg-flex{
+		display: none !important;
+	}
 
-  nav.navbar.navbar-desktop{
-	  display: none !important;
-  }
+	html > body div > .d-md-flex{
+		display: flex !important;
+	}
+
+	header.masthead {
+		padding-top: 12rem;
+		padding-bottom: 12rem;
+	}
+	header.masthead h1 {
+		font-size: 3rem;
+	}
+
+	header.header.header-desktop{
+		display: none !important;
+	}
+
+	nav.navbar.navbar-desktop{
+		display: none !important;
+	}
 
 }
 
   /* Moblie */
-@media(max-width: 500px){
+@media(max-width: 768px){
 
 	header.header.header-desktop{
 		display: none !important;

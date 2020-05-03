@@ -38,7 +38,7 @@
 		?>
 	</nav>
 
-	<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-tablet static-top d-flex d-lg-none d-md-flex d-sm-none">
+	<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-tablet static-top d-flex d-md-flex d-sm-none">
 
 		<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization">
 			<a href="<?php echo home_url(); ?>" rel="nofollow">

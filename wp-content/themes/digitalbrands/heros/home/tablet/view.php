@@ -1,4 +1,4 @@
-<header class="header header-tablet masthead text-white text-center d-flex d-lg-none d-md-flex d-sm-none" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<header class="header header-tablet masthead text-white text-center d-flex d-md-flex d-sm-none" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 <div class="row row-hero-header">
 

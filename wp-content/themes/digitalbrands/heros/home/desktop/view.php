@@ -5,7 +5,7 @@
 		<section class="col-12 mx-auto">
 			<h1 class="hero-header"> 
 				<div class="hero-header-first">WE ARE A PREMIUM DIGITAL AGENCY</div> 
-				<div class="hero-header-sub highlight-blue">TRUSTED BY OVER 4,207 CLIENTS</div>
+				<div class="hero-header-sub highlight-gradient-blue-purple">TRUSTED BY OVER 4,207 CLIENTS</div>
 			</h1>
 		</section>
 
