@@ -1,27 +1,37 @@
 <header class="header header-tablet masthead text-white text-center d-flex d-lg-none d-md-flex d-sm-none" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
-	<div class="row">
+<div class="row row-hero-header">
 
-		<section class="col-12 mx-auto">
-			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
-				<div class="hero-header-cta">
-					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
-				</div>
-			</h1>
-		</section>
+	<section class="col-12 mx-auto">
+		<h1 class="hero-header"> 
+			<div class="hero-header-first">WE ARE A PREMIUM DIGITAL AGENCY</div> 
+			<div class="hero-header-sub highlight-blue">TRUSTED BY OVER 4,207 CLIENTS</div>
+		</h1>
+	</section>
 
-		<!--
-		<aside class="header-icons">
+	<section class="col-12 hero-seo">
 
-		</aside>
+		<div class="col-5 hero-seo-text">
 
-		<aside class="header-cta">
-			<button class="btn btn-primary">
-		</aside>
-		-->
+			<h1 class="capslock">TURNKEY SHOPIFY STORES</h1>
+			<h1 class="capslock">TECHNOLOGY BASED MARKETING</h1>
+			<h1 class="capslock">EXTRAORDINARY WEBSITES</h1>
+			<h1 class="capslock">AWARD WINNING APP DEVELOPMENT</h1>
 
-	</div>
+
+		</div>
+
+		<div class="col-7">
+
+		</div>
+
+	</section>
+
+
+	<section class="col-12 hero-cta">
+		<a href="##" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULATION</a>
+	</section>
+
+</div>
 
 </header>
