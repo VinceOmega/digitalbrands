@@ -12,7 +12,7 @@
 
 		<section class="col-12 mx-auto">
 			<div class="header-cta">
-				<button type="button" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</button>
+				<a href="##" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</a>
 			</div>
 		</section>
 

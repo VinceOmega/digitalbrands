@@ -1,7 +1,8 @@
 	<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-desktop static-top d-flex d-lg-flex d-md-none d-sm-none">
 
 		<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization">
-			<a href="<?php echo home_url(); ?>" rel="nofollow">
+			<a href="tel:+18007752049" class="logo-telephone">1 (800) 775-2049</a>
+			<a href="<?php echo home_url(); ?>" rel="nofollow" class="logo-dg">
 				<?php 
 					$cnt = 0;
 					$numToWordsArray = [
