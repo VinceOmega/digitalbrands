@@ -43,11 +43,11 @@
 
 								<?php if( count( $item ) > 1 && count( $item[0] ) > 1 ) { ?>
 
-									<section class="col-3 column <?php echo $workCollection->{ $entries[0] }->class; ?>">
+									<section class="col-3 column">
 
 								<?php } else { ?>
 
-									<section class="col-9 column <?php echo $workCollection->{ $entries[0] }->class; ?>">
+									<section class="col-9 column">
 
 								<?php } ?>
 
@@ -79,7 +79,7 @@
 						</div>
 
 						<?php $item++; ?>
-
+						
 					<?php } ?>
 
 				</div>
