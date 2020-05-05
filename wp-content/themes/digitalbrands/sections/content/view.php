@@ -21,5 +21,7 @@
     <div class="content-text">
         <?php echo $pageInfo->post_content; ?>
     </div>
-    <a href="https://go.thryv.com/widgets/scheduler/a6h9sm0rzt5pclen?frontage_iframe=true" target="_blank" class="btn btn-gradient-blue-purple capslock">get your free consultation!</a>
+    <div class="content-cta">
+        <a href="https://go.thryv.com/widgets/scheduler/a6h9sm0rzt5pclen?frontage_iframe=true" target="_blank" class="btn btn-gradient-blue-purple capslock">get your free consultation!</a>
+    </div>
 </div>
