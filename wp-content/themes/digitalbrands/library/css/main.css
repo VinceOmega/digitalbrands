@@ -191,7 +191,8 @@ html.iphone .w3-card .right-btn button.btn-lead{
 	font-size: .8rem;
 	max-height: 1500px;
 	transition: all .8s ease-in-out;
-
+	padding: 15px;
+	
 }
 
 html.iphone .w3-card .list{
@@ -645,6 +646,24 @@ html.iphone nav.navbar-mobile p#logo{
 	
 }
 
+.capslock.showcase-header-main{
+	text-align: center;
+	width: 100%;
+	color: #086Af3;
+	font-size: 3rem;
+}
+
+.capslock.showcase-header-sub{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.showcase-header-text{
+	width: 100%;
+	text-align: center;
+}
+
 /* wordpress special */
 .features-icons div.container div.features-icons-item div.features-icons-icon ul li img.wordpress{
 	width: 60px;
@@ -702,6 +721,10 @@ html.iphone nav.navbar-mobile p#logo{
 	width: 156px;
 	height: 100%;
     min-height: 156px;
+}
+
+.showcase .no-gutters{
+	padding: 0 100px;
 }
 
 html.iphone .showcase .container .showcase-item .col-3 img{
@@ -1146,6 +1169,61 @@ nav.navbar.navbar-mobile:hover{
   background-color: transparent;
 }
 
+section.brands ul.brands{
+	display: block;
+	text-align: center;
+}
+
+section.brands h2.mb-4{
+	text-align: center;
+    color: #086AF3;
+    font-size: 3rem;
+}
+
+section.brands ul.brands li{
+	display: inline-block;
+}
+
+section.brands ul.brands li img{
+	max-width: 150px;
+    width: 150px;
+    height: auto;
+}
+
+section.showcase .container h2.mb-5:first-child{
+	text-align: center;
+	font-size: 3rem;
+}
+
+section.showcase .container .work-desktop{
+	display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100% 100% 100% 100%;
+}
+
+.container-fluid.about-us .about-us-header{
+	text-align: center;
+    color: #086AF3;
+    font-size: 3rem;
+}
+
+footer.footer{
+	clear: both;
+    background-color: white;
+    color: #5c6b80;
+}
+
+footer .header-first-word{
+	text-align: center;
+	font-size: 3rem;
+	color: black;
+}
+
+footer .header-first-word .supascript{
+	top: -10px;
+    position: relative;
+}
+
   /* Tablet */
 @media ( min-width: 768px ) and ( max-width: 1024px ) {
 
@@ -1155,6 +1233,14 @@ nav.navbar.navbar-mobile:hover{
 
 	html > body div > .d-md-flex{
 		display: flex !important;
+	}
+
+	html body .d-lg-grid{
+		display: none !important;
+	}
+
+	html body .d-md-grid{
+		display: grid !important;
 	}
 
 	header.masthead {
@@ -1177,6 +1263,10 @@ nav.navbar.navbar-mobile:hover{
 
   /* Moblie */
 @media(max-width: 768px){
+
+	.work-desktop{
+		display: none;
+	}
 
 	header.header.header-desktop{
 		display: none !important;
