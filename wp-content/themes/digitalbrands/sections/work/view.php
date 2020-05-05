@@ -30,7 +30,7 @@
 			<div class="hero-header-second"><span class="highlight-blue">HAPPY</span> AND <span class="highlight-blue">PROUD:</span></div>
 		</h2>
 
-		<section class="work-desktop d-grid d-lg-grid d-md-grid">
+		<section class="work-desktop d-grid d-lg-grid d-md-grid sm-hide">
 			<?php foreach( $workArray as $row ){ ?>
 
 				<div class="row">

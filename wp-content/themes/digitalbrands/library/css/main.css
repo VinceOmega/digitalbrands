@@ -1224,6 +1224,8 @@ footer .header-first-word .supascript{
     position: relative;
 }
 
+
+
   /* Tablet */
 @media ( min-width: 768px ) and ( max-width: 1024px ) {
 
@@ -1263,6 +1265,10 @@ footer .header-first-word .supascript{
 
   /* Moblie */
 @media(max-width: 768px){
+
+	.sm-hide{
+		display: none !important;
+	}
 
 	.work-desktop{
 		display: none;
@@ -1306,6 +1312,7 @@ footer .header-first-word .supascript{
 	.showcase > div.container-fluid > div.row{
 		width: 80%;
 		margin: 0 auto;
+		padding: 0;
 	}
 
 	.showcase.rounded-black .container > h2{
