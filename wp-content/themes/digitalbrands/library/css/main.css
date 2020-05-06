@@ -1245,6 +1245,12 @@ footer .header-first-word .supascript{
     position: relative;
 }
 
+footer .footer-social-media,
+footer .footer-terms-policy{
+	align-items: flex-end;
+    display: flex;
+}
+
 
 
   /* Tablet */

@@ -1,10 +1,45 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				<div class="footer-flavor-text">
-					<h3 class="header-first-word">Digital<strong class="header-second-word">Brands</strong><span class="supascript">&copy;</span></h3>
-					<p>We are a team of creative thinkers and problem solvers dedicated to expanding the limits of what is possible by helping brands achieve their goals. At Digital Brands, we utilize our breadth of experience working with major corporations to fuel creative innovation that delivers real results to companies large and small.</p>
-				</div>
+				<div class="row">
 
+					<div class="footer-digital-brands col-4">
+						<div class="footer-flavor-text">
+							<h3 class="header-first-word">Digital<strong class="header-second-word">Brands</strong><span class="supascript">&copy;</span></h3>
+							<p>We are a team of creative thinkers and problem solvers dedicated to expanding the limits of what is possible by helping brands achieve their goals. At Digital Brands, we utilize our breadth of experience working with major corporations to fuel creative innovation that delivers real results to companies large and small.</p>
+						</div>
+					</div>
+
+					<div class="footer-social-media col-4">
+
+						<div class="icon-footer" align="center">
+
+							<a href="mailto: hello@digitalbrandsinc.com">
+							<i class="fa fa-envelope-o" style="font-size: 20px; margin-left: 10px;"></i></a>
+							<a href="https://twitter.com/DigitalBrand4U" target="_blank">
+							<i class="fa fa-twitter" style="font-size: 20px; margin-left: 10px;"></i></a>
+							<a href="https://www.instagram.com/digitalbrandsinc/" target="_blank">
+							<i class="fa fa-instagram" style="font-size: 20px; margin-left: 10px;"></i></a>
+							<a href="https://www.facebook.com/digitalbrandsinc" target="_blank">
+							<i class="fa fa-facebook" style="font-size: 20px; margin-left: 10px;"></i></a>
+							<a href="tel:+1800-775-2049">
+							<i class="fa fa-phone" style="font-size: 20px; margin-left: 10px;"></i></a>
+
+							<br>
+
+							<p>Copyright © 2020 DigitalBrandsInc.Com All rights reserved</p>
+
+						</div>
+					</div>
+
+					<div class="footer-terms-policy col-4">
+
+						<div class="col-md copy-right2">
+							<p> <a href="./terms-condition.php"> Terms Of Use </a> and <a href="./privacy-policy.php">Privacy Policy</a> Cookie Policy</p>
+						</div>
+						
+					</div>
+
+				</div>
 
 				<div id="mobile-nav" class="mobile-nav d-flex d-lg-none d-md-none">
 
