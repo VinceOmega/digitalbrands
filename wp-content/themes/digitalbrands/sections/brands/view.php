@@ -1,7 +1,7 @@
 <section class="brands rounded-white">
 		<div class="row">
 			<div class="col-12 mx-auto">
-			<h2 class="mb-4">Ready to get started? Sign up now!</h2>
+			<h2 class="mb-4 capslock"><span class="highlight-blue">Clients</span> WE HAVE WORKED WITH</h2>
 			</div>
 			<div class="col-12">
 				<?php $brands = json_decode( file_get_contents( dirname( __FILE__ )."/config.json" ) )->brands; ?>
