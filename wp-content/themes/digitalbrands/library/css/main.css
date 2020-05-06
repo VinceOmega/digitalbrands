@@ -1251,6 +1251,9 @@ footer .footer-terms-policy{
     display: flex;
 }
 
+.strong-view.modern .testimonial-heading{
+	display: none;
+}
 
 
   /* Tablet */
