@@ -254,7 +254,8 @@ html.iphone .w3-card .list{
     line-height: 6px;
     height: 2rem;
     border-radius: 5px;
-    text-align: center;
+	text-align: center;
+	font-size: .74rem;
 }
 
 .w3-card .btn.btn-toggle.minus{
@@ -1582,7 +1583,8 @@ footer.footer .footer-terms-policy {
 		position: relative;
 		left: 5%;
 		padding: .3rem .8rem;
-		font-size: 3rem;
+		font-size: 2rem;
+		margin-top: 1rem;
 		z-index: 6000;
 	}
 
@@ -1632,6 +1634,7 @@ footer.footer .footer-terms-policy {
 		display: block;
 		position: relative;
 		margin: 3px 0;
+		font-size: 1.3rem;
 
 	}
 
