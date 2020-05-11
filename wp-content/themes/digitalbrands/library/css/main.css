@@ -1259,6 +1259,10 @@ section.showcase a img{
     font-size: 3rem;
 }
 
+.container-fluid.about-us p{
+	padding: 20px;
+}
+
 footer.footer{
 	clear: both;
     background-color: white;
@@ -1280,6 +1284,17 @@ footer .footer-social-media,
 footer .footer-terms-policy{
 	align-items: flex-end;
     display: flex;
+}
+
+footer.footer .footer-flavor-text p{
+	padding: 30px;
+}
+
+footer.footer .footer-social-media {
+	padding-bottom: 30px;
+}
+footer.footer .footer-terms-policy {
+	padding-bottom: 30px;
 }
 
 .strong-view.modern .testimonial-heading{
