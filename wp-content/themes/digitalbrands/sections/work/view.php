@@ -1,7 +1,7 @@
 <?php
 	
 	$pageInfo = get_page( get_the_ID() );
-	$item = 1;
+	$cnt = 1;
 
   	$file   = file_get_contents( get_template_directory()."/sections/work/config.json" );
   	$json   = json_decode( $file );
@@ -30,18 +30,18 @@
 			<div class="hero-header-second"><span class="highlight-blue">HAPPY</span> AND <span class="highlight-blue">PROUD:</span></div>
 		</h2>
 
-		<section class="work-desktop d-grid d-lg-grid d-md-grid sm-hide">
-			<?php foreach( $workArray as $row ){ ?>
+		<section class="work-desktop sm-hide">
 
-				<div class="row">
+	  		<div class="row">
 
-					<?php foreach( $row as $item ){ ?>
+				<?php foreach( $workArray as $row ){ ?>
 
-						<div class="showcase-item item-<?php echo $item; ?>">
 
-							<?php if( count( $item ) > 1 ) { ?>
+						<?php foreach( $row as $item ){ ?>
 
-								<?php if( count( $item ) > 1 && count( $item[0] ) > 1 ) { ?>
+							<?php if( true || ( count( $item ) > 1 ) ) { ?>
+
+								<?php if( true || ( count( $item ) > 1 && count( $item[0] ) > 1 ) ) { ?>
 
 									<section class="col-3 column">
 
@@ -75,16 +75,13 @@
 
 
 							<?php } ?>
+							
+						<?php } ?>
 
-						</div>
+				<?php } ?>
 
-						<?php $item++; ?>
-						
-					<?php } ?>
+			</div>
 
-				</div>
-
-			<?php } ?>
 		</section>
 
 		<section class="work-mobile d-grid d-lg-none d-md-none d-sm-grid">

@@ -707,6 +707,10 @@ html.iphone nav.navbar-mobile p#logo{
 	flex-direction: row;
 }
 
+.showcase .container .work-desktop .row{
+	padding-bottom: 50px;
+}
+
 .showcase .container .showcase-item{
 
 	display: flex;
@@ -1216,10 +1220,37 @@ section.showcase .container h2.mb-5:first-child{
 	font-size: 3rem;
 }
 
+/*
 section.showcase .container .work-desktop{
 	display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: 100% 100% 100% 100%;
+}*/
+
+section.showcase .work-desktop .col-3.column{
+	padding: 0;
+    margin: 0;
+    max-width: 156px;
+}
+
+section.showcase .col-3 a img{
+	height: auto;
+	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	width: fill-available;
+	width: stretch;
+	width: 100%;
+	max-width: 156px;
+}
+
+
+section.showcase a img{
+	height: auto;
+	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+	width: fill-available;
+	width: stretch;
+	width: 100%;
 }
 
 .container-fluid.about-us .about-us-header{
@@ -1328,8 +1359,8 @@ footer .footer-terms-policy{
 		display: inline-block;
 	}
 
-	.brands .brands-items a img{
-		max-width: 45px;
+	section.brands ul.brands li.brands-items a img{
+		max-width: 39px;
 		height: auto;
 	}
 
@@ -1349,11 +1380,11 @@ footer .footer-terms-policy{
 		text-align: center;
 	}
 
-	.showcase.rounded-black .showcase-item{
+	.showcase.rounded-black .work-mobile .showcase-item{
 		margin: 0 auto;
 	}
 
-	.showcase.rounded-black .showcase-item .column{
+	.showcase.rounded-black .work-mobile .showcase-item .column{
 		flex-direction: row;
 	}
 
@@ -1377,7 +1408,7 @@ footer .footer-terms-policy{
 		font-size: .8rem;
 	}
 
-	.showcase .showcase-item img{
+	.showcase .work-mobile .showcase-item img{
 		height: auto;
 		width: -moz-available;          /* WebKit-based browsers will ignore this. */
 		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
@@ -1385,6 +1416,16 @@ footer .footer-terms-policy{
 		width: stretch;
 		width: 100%;
 		max-width: 320px;
+	}
+
+	html.iphone .showcase .showcase-item img{
+		min-height: 80px;
+		width: -moz-available;          /* WebKit-based browsers will ignore this. */
+		width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+		width: fill-available;
+		width: stretch;
+		width: 100%;
+		max-width: 300px;
 	}
 
 	html.iphone .showcase .showcase-item img{
