@@ -348,6 +348,12 @@ header.header-tablet 	.hero-header{
 }
 
 
+header.header.header-tablet{
+
+	padding: 0;
+
+}
+
 header.header-desktop .hero-header .hero-header-sub{
 
 	font-family: 'Noto Sans';
@@ -374,6 +380,7 @@ header.header-desktop .hero-header .hero-header-sub{
 
 }
 
+
 .row .hero-seo .hero-seo-text h1{
 
 	line-height: 1.2rem;
@@ -381,6 +388,16 @@ header.header-desktop .hero-header .hero-header-sub{
 	font-size: 2.8rem;
 
 }
+
+header.header.header-tablet .row .hero-seo .hero-seo-text h1{
+
+	visibility: hidden;
+	line-height: 2.4rem;
+	font-weight: 500;
+	font-size: 2rem;
+
+}
+
 
 .row .hero-cta a[class*="btn-gradient-"]{
 
@@ -428,6 +445,19 @@ header.masthead {
   background-color: #fff;
   background: url("../images/heros/desktop/home.png") no-repeat 76% 150%;
   background-size: auto;
+}
+
+header.header-tablet.masthead{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/home.png) no-repeat 156% 150%;
+    background-size: 90%;
 }
 
 header.masthead.app{
@@ -1216,6 +1246,7 @@ section.brands ul.brands li img{
     height: auto;
 }
 
+
 section.showcase .container h2.mb-5:first-child{
 	text-align: center;
 	font-size: 3rem;
@@ -1311,7 +1342,7 @@ footer.footer .footer-terms-policy {
 
 
   /* Tablet */
-@media ( min-width: 768px ) and ( max-width: 1024px ) {
+@media ( min-width: 761px ) and ( max-width: 1024px ) {
 
 	html > body div > .d-lg-flex{
 		display: none !important;
@@ -1345,10 +1376,22 @@ footer.footer .footer-terms-policy {
 		display: none !important;
 	}
 
+	section.brands ul.brands li img{
+		max-width: 90px;
+		width: 90px;
+		height: auto;
+	}
+
+	.w3-card a.btn.btn-primary{
+
+		font-size: .54rem;
+
+	}
+
 }
 
   /* Moblie */
-@media(max-width: 768px){
+@media(max-width: 760px){
 
 	.sm-hide{
 		display: none !important;
