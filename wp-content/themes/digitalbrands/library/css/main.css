@@ -1230,7 +1230,8 @@ section.showcase .container .work-desktop{
 section.showcase .work-desktop .col-3.column{
 	padding: 0;
     margin: 0;
-    max-width: 156px;
+	max-width: 156px;
+	overflow: hidden;
 }
 
 section.showcase .col-3 a img{
@@ -1241,6 +1242,7 @@ section.showcase .col-3 a img{
 	width: stretch;
 	width: 100%;
 	max-width: 156px;
+	height: 156px;
 }
 
 
@@ -1251,6 +1253,11 @@ section.showcase a img{
 	width: fill-available;
 	width: stretch;
 	width: 100%;
+}
+
+section.showcase .work-desktop a img.dash{
+	max-width: 999px;
+	width: auto;
 }
 
 .container-fluid.about-us .about-us-header{
