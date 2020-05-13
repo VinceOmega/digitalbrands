@@ -3,10 +3,13 @@
 				<div class="row">
 
 					<div class="footer-digital-brands col-lg-4 col-md-12 col-sm-12">
+
 						<div class="footer-flavor-text">
+
 							<h3 class="header-first-word">Digital<strong class="header-second-word">Brands</strong><span class="supascript">&copy;</span></h3>
 							<p>We are a team of creative thinkers and problem solvers dedicated to expanding the limits of what is possible by helping brands achieve their goals. At Digital Brands, we utilize our breadth of experience working with major corporations to fuel creative innovation that delivers real results to companies large and small.</p>
 
+							<!--
 							<div class="col-md copy-right2 d-sm-block d-md-block d-lg-none" align="center">
 								<a href="./terms-condition.php"> Terms Of Use </a> and <a href="./privacy-policy.php">Privacy Policy</a> Cookie Policy
 								
@@ -32,12 +35,13 @@
 								<p>Copyright © 2020 DigitalBrandsInc.Com All rights reserved</p>
 
 							</div>
+							-->
 
 						</div>
 
 					</div>
 
-					<div class="footer-social-media col-lg-4 d-md-none sm-hide">
+					<div class="footer-social-media col-lg-4 col-md-12 col-sm-12">
 
 						<div class="icon-footer" align="center">
 
@@ -60,9 +64,9 @@
 
 					</div>
 
-					<div class="footer-terms-policy col-lg-4 d-md-none sm-hide">
+					<div class="footer-terms-policy col-lg-4 col-md-12 col-sm-12">
 
-						<div class="col-md copy-right2">
+						<div class="col-md copy-right2"  align="center">
 							<p> <a href="./terms-condition.php"> Terms Of Use </a> and <a href="./privacy-policy.php">Privacy Policy</a> Cookie Policy</p>
 						</div>
 						

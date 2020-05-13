@@ -4,24 +4,20 @@
 
 		<section class="col-12 mx-auto">
 			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
-				<div class="hero-header-cta">
-					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
-				</div>
+				<div class="hero-header-first">YOU DREAM IT. WE CAN BUILD IT.</div> 
 			</h1>
 		</section>
 
-		<!--
-		<aside class="header-icons">
-
-		</aside>
-
-		<aside class="header-cta">
-			<button class="btn btn-primary">
-		</aside>
-		-->
+		<section class="col-12 mx-auto header-cta-section">
+			<div class="header-cta">
+				<a href="#" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</a>
+			</div>
+			<p class="capslock cta-text">work with our award winning</p>
+			<p class="capslock cta-text">app development team</p>
+		</section>
 
 	</div>
+
+
 
 </header>

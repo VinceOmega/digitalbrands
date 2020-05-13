@@ -2,25 +2,22 @@
 
 	<div class="row">
 
-		<section class="col-12 mx-auto">
+		<section class="col-12 mx-auto hero-header-section">
 			<h1 class="hero-header"> 
-				<div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-				<div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
-				<div class="hero-header-cta">
-					<button type="button" class="btn btn-primary capslock">Get a free consultation</button>
-				</div>
+				<div class="hero-header-first">SUPERIOR WEBSITES</div> 
 			</h1>
+			<div class="hero-header-text-collection">
+				<p class="capslock hero-header-text">your new website can be</p>
+				<p class="capslock hero-header-text">launched and live</p>
+				<p class="capslock hero-header-text">in 14 days or less</p>
+			</div>
 		</section>
 
-		<!--
-		<aside class="header-icons">
-
-		</aside>
-
-		<aside class="header-cta">
-			<button class="btn btn-primary">
-		</aside>
-		-->
+		<section class="col-12 mx-auto">
+			<div class="header-cta">
+				<button type="button" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</button>
+			</div>
+		</section>
 
 	</div>
 

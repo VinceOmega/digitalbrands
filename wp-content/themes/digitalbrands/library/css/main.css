@@ -1440,6 +1440,11 @@ aside.menu-nav-display a.clk-rotate img{
 	height: auto;
 }
 
+footer.footer .footer-social-media .icon-footer{
+	text-align: center;
+	margin: 0 auto;
+}
+
   /* Tablet */
 @media ( min-width: 761px ) and ( max-width: 1024px ) {
 
@@ -1760,7 +1765,7 @@ aside.menu-nav-display a.clk-rotate img{
 	}
 
 	footer.footer .mobile-nav nav aside.menu-nav-display a.db-social-circle img{
-		height: 20%;
+		height: auto;
 		width: auto;
 		margin: 0 auto;
 	}

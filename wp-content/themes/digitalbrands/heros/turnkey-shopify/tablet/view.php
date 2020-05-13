@@ -4,23 +4,24 @@
 
         <section class="col-12 mx-auto">
             <h1 class="hero-header"> 
-                <div class="hero-header-first"><span class="highlight-blue">ELEVATING</span> BUSINESSES THROUGH </div> 
-                <div class="hero-header-second">HIGH QUALITY DIGITAL <span class="highlight-blue">BRANDING:</span></div>
-                <div class="hero-header-cta">
-                    <button type="button" class="btn btn-primary capslock">Get a free consultation</button>
-                </div>
+                <div class="hero-header-first">CONGRATULATIONS!</div> 
             </h1>
+            <h2 class="wt-300 hero-secondary-header capslock text-white">selling on shopify is the easiest way</h2>
+            <h2 class="wt-300 hero-secondary-header capslock text-white">to receive a second income</h2>
         </section>
 
-        <!--
-        <aside class="header-icons">
+        <section class="col-12 mx-auto">
+            <div class="header-cta">
+                <button type="button" class="btn btn-gradient-blue-purple capslock text-white">GET A FREE CONSULTATION</button>
+            </div>
+        </section>
 
-        </aside>
-
-        <aside class="header-cta">
-            <button class="btn btn-primary">
-        </aside>
-        -->
+        <section class="col-12 mx-auto text-under-cta">
+            <div>
+                <h2 class="wt-300 text-under-cta-secondary-header capslock text-white">GUARANTEED</h2>
+                <h2 class="wt-300 text-under-cta-secondary-header capslock text-white">14 DAY TURNAROUND</h2>
+            </div>
+        </section>
 
     </div>
 
