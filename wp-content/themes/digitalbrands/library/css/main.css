@@ -473,6 +473,19 @@ header.masthead.app{
     background-size: 120% 170%;
 }
 
+header.header-tablet.masthead.app{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+    background: url(../images/heros/desktop/app.png) no-repeat 0px 20%;
+    background-size: 120% 120%;
+}
+
 header.header-desktop.app .hero-header div.hero-header-first{
 	font-size: 6rem;
 }
@@ -534,6 +547,19 @@ header.masthead.marketing {
     background-color: #fff;
     background: url(../images/heros/desktop/marketing.png) no-repeat 90% 60%;
     background-size: 110%;
+}
+
+header.header-tablet.masthead.marketing{
+	display: flex;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: 100%;
+    height: stretch;
+    position: relative;
+    background-color: #fff;
+	background: url(../images/heros/desktop/marketing.png) no-repeat -400px 0;
+    background-size: cover;
 }
 
 
