@@ -38,6 +38,28 @@
 		?>
 	</nav>
 
+	<aside role="menu" class="menu-tablet static-top d-flex d-md-flex d-sm-none menu-nav-display">
+		<?php wp_nav_menu(array(
+						'container' => false,                           
+						'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+						'menu' => 'navigation',  // nav name
+						'menu_class' => 'nav top-nav cf',               // adding custom nav class
+						'theme_location' => 'main-nav',                 // where it's located in the theme
+						'before' => '',                                 // before the menu
+						'after' => '',                                  // after the menu
+						'link_before' => '',                            // before each link
+						'link_after' => '',                             // after each link
+						'depth' => 1,                                   // limit the depth of the nav
+						'fallback_cb' => '',                             // fallback function (if there is one)
+						'items_wrap'  => '<ul id="navigation" class="navigation">%3$s</ul>',
+						'echo' => true
+			)); wp_nav_menu();
+		?>
+
+		<a href="/" class="clk-rotate db-social-circle"><img src="<?php echo get_template_directory_uri(); ?>/library/images/site/DBCircle3D.png"></a>
+
+	</aside>
+
 	<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-tablet static-top d-flex d-md-flex d-sm-none">
 
 		<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization">
@@ -60,22 +82,8 @@
 			</a>
 		</p>
 
-		<?php wp_nav_menu(array(
-					'container' => false,                           
-					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-					'menu' => 'navigation',  // nav name
-					'menu_class' => 'nav top-nav cf',               // adding custom nav class
-					'theme_location' => 'main-nav',                 // where it's located in the theme
-					'before' => '',                                 // before the menu
-					'after' => '',                                  // after the menu
-					'link_before' => '',                            // before each link
-					'link_after' => '',                             // after each link
-					'depth' => 1,                                   // limit the depth of the nav
-					'fallback_cb' => '',                             // fallback function (if there is one)
-					'items_wrap'  => '<ul id="navigation" class="navigation">%3$s</ul>',
-					'echo' => true
-		)); wp_nav_menu();
-		?>
+		<div class="menu-dropdown"><a href="javascript:void(0)" class="js-menu-toggle"><img src="<?php echo get_template_directory_uri(); ?>/library/images/site/bars.png"></img></a></div>
+
 	</nav>
 
 

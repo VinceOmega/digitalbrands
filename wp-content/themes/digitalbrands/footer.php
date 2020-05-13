@@ -37,7 +37,7 @@
 
 					</div>
 
-					<div class="footer-social-media col-lg-4 d-md-none d-sm-none">
+					<div class="footer-social-media col-lg-4 d-md-none sm-hide">
 
 						<div class="icon-footer" align="center">
 
@@ -60,7 +60,7 @@
 
 					</div>
 
-					<div class="footer-terms-policy col-lg-4 d-md-none d-sm-none">
+					<div class="footer-terms-policy col-lg-4 d-md-none sm-hide">
 
 						<div class="col-md copy-right2">
 							<p> <a href="./terms-condition.php"> Terms Of Use </a> and <a href="./privacy-policy.php">Privacy Policy</a> Cookie Policy</p>
